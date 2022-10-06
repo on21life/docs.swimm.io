@@ -1,0 +1,37 @@
+---
+slug: release-0.9.7
+title: Swimm 0.9.7 Released
+authors: [swimm] 
+tags: [release-notes]
+date: 2022-10-02
+---
+import {SwimmLink, SwimmMoji, SwimmReleaseBlogPost, SwimmReleaseTweet, SwimmReleaseVideo} from '../../src/components/SwimmUtils.js';
+import Link from '@docusaurus/Link';
+
+# Swimm 0.9.7 Has Been Released!
+
+We're pleased to announce the availability of **Swimm 0.9.6**<SwimmMoji text="release"/>
+
+<SwimmReleaseBlogPost version="0.9.7" />
+
+<SwimmReleaseVideo version="0.9.7" />
+
+## New Features:
+- **Mermaid Diagrams in Swimm** - You can now add diagrams and charts to your documentation in Swimm, using mermaid syntax in the editor. Type /mermaid to start editing your mermaid diagram, or use templates from <Link to="https://mermaid.live">Mermaid Live Editor</Link>. 
+- **Admin Rules**- Admins in Swimm can now automate workflows using Swimm's GitHub app. Admins can set conditions and actions to promote documentation creation and consumption.
+- **Continuous Publish** - Admins can now allow publishing docs from a repo to the Cloud, so that even when users don't have access to the repo, they will still be able to view those docs. Published docs are kept in sync with Swimm's GitHub App. 
+- **Multi-repo Docs** - Multi-repo docs are docs that contain one or more snippets from more than one repository. With Swimm, you can now create docs with code snippets across multiple repositories. Here's how: when opening the Snippet Studio, select snippets from any workspace repository. Note that selecting Smart Tokens and Smart Paths from other repositories is not currently supported.  Snippets in a Multi-repo doc from other repositories are always Auto-synced from the default branch. When there are outdated or Auto-synced snippets in a Multi-repo doc, they can be resolved directly from the Swimm App (not from Swimm's GitHub App). 
+
+- **Global Search** - You can now search from anywhere across code-coupled docs, cloud docs, and Playlists in your workspace. To search, use ⌘+K (MacOS) or CTRL+K (Windows/Linux) or the search icon at the top right corner. For code-coupled content, Swimm will perform a global search only on the *default* branch and on *committed* docs/Playlists.  
+
+## Improvements:
+- **New Section for Docs and Playlist Versions** - Additions or changes in any `package-lock.json` or `yarn.lock` file will not appear in a doc created with the Doc from PR feature.
+- **Multiple File Import** - Swimm now supports the ability to import multiple Markdown files. You can choose whether you want to import files from your computer, or Swimm can scan your repo and detect all of your Markdown files to create Swimm docs.
+
+## Bug Fixes:
+- Fixed: when creating a doc from a PR and discarding the generated draft, the draft is now removed.
+
+
+For further information and any questions, please reach out to us on our <SwimmLink target="slack" />.
+
+<SwimmReleaseTweet version="0.9.7" />
