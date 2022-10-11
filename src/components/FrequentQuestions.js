@@ -22,7 +22,7 @@ const FAQIndex = {
                         By adding referenced code tokens (such as variables, functions, or class names) in your documentation, 
                         these live code references are tracked by Swimm to keep your documentation up to date. 
                         To add Smart Tokens in Swimm, type a Backtick <code>`</code> anywhere in the editor. 
-                        Read more about Smart Tokens <a href="/docs/Features/editor-commands">here.</a> 
+                        Read more about Smart Tokens <a target="_blank" href="/docs/Features/editor-commands#smart-tokens">here.</a> 
                     </p>
             },
             {
@@ -32,7 +32,7 @@ const FAQIndex = {
                         You can create a Playlist with documents that exist in one or more repositories. 
                         Simply navigate to another repo and select the docs you'd like to add. 
                         Note that Playlists can be embedded in other Playlists as well. 
-                        Learn more about Swimm Playlists <a href="/docs/Features/Swimm-Playlists">here.</a>
+                        Learn more about Swimm Playlists <a target="_blank" href="/docs/Features/Swimm-Playlists">here.</a>
                     </p>
             },
             {
@@ -124,7 +124,7 @@ const FAQIndex = {
                         <br/>
                         With some practice, it can take just several minutes to create documentation to help your larger 
                         team understand aspects of the codebase that will benefit from the documentation. 
-                        You can also use <a href="https://swimm.io/blog/how-to-use-swimm-templates/">Swimm templates</a> 
+                        You can also use <a target="_blank" href="https://swimm.io/blog/how-to-use-swimm-templates/">Swimm templates</a> 
                         from Swimm's template collection to help you get started writing a doc.
                     </p>
             },
@@ -203,7 +203,7 @@ const FAQIndex = {
                 title: "What's the difference between Swimm documentation and regular documentation?",
                 content:
                 <p>
-                    Swimm allows you to create <a href="/docs/creating-content/fluid-editor">Code coupled documentation</a> by adding live snippets from your code. 
+                    Swimm allows you to create <a target="_blank" href="/docs/features">Code coupled documentation</a> by adding live snippets from your code. 
                     Regular documentation systems are not built for software documentation because code changes rapidly and regular documentation solutions need to be manually maintained.
                     <br/><strong>With Swimm, it becomes easily manageable thanks to Swimm's Auto-sync algorithm that helps users keep these snippets and your documentation always up to date. </strong>
                     <br/><br/>
@@ -219,14 +219,14 @@ const FAQIndex = {
                 <p>
                     Comments help understand the specific lines of code they are associated with. Understanding code, and especially complex code scenarios, usually require following a flow of code from different files, and sometimes different repos. Comments do not help with that. 
                     <br/><br/>Also, if you forget to update a comment, you don't get a notification or warning.
-Swimm doesn't replace comments in code - <a href="https://swimm.io/blog/walkthrough-documentation-where-swimms-main-value-lies/">it augments them</a>. It puts the narrative right where you need to find it, <a href="https://docs.swimm.io/docs/publishing-content/ide-plugins">in your IDE</a>. You'll see that it's there for your team if they need it when they need it.
+Swimm doesn't replace comments in code - <a target="_blank" href="https://swimm.io/blog/walkthrough-documentation-where-swimms-main-value-lies/">it augments them</a>. It puts the narrative right where you need to find it, <a target="_blank" href="https://docs.swimm.io/docs/ide-integrations/ide-plugins">in your IDE</a>. You'll see that it's there for your team if they need it when they need it.
                 </p>
             },
             {
                 title: "What are the differences between code comments and Swimm docs?",
                 content:
                 <p>
-                    Swimm is a crossbreed between code comments and high-level documentation. With Swimm, you add code snippets to your docs, so they are available right inside the doc whenever you select a code snippet. When you use one of <a href="https://swimm.io/blog/ide-integrated-documentation-using-swimm/">Swimm’s IDE plugins</a>, links to available documentation appear right within the code.
+                    Swimm is a crossbreed between code comments and high-level documentation. With Swimm, you add code snippets to your docs, so they are available right inside the doc whenever you select a code snippet. When you use one of <a target="_blank" href="https://swimm.io/blog/ide-integrated-documentation-using-swimm/">Swimm’s IDE plugins</a>, links to available documentation appear right within the code.
                     <br/><br/>
                     Because documentation is code-coupled, you find your documents in time, they describe flow and patterns using the actual code, documentation coverage is automatically detected and flagged, and there’s no more risk of code comments becoming outdated or accidentally deleted.
                 </p>
@@ -249,9 +249,9 @@ Swimm doesn't replace comments in code - <a href="https://swimm.io/blog/walkthro
                     Swimm provides an effective and efficient way to reduce (and sometimes completely eliminate) these challenges.
                     For more details here are some articles that address the impact of swimm over R&D teams:
                     <ul>
-                    <li><a href="https://swimm.io/case-studies">Case studies</a> Swimm case studies</li>
-                    <li><a href="https://swimm.io/blog/meeting-challenges-software-development-teams/">Swimm's whitepaper </a></li>
-                    <li><a href="https://swimm.io/blog/how-swimm-uses-swimm/">How Swimm uses Swimm</a></li>
+                    <li><a target="_blank" href="https://swimm.io/case-studies">Case studies</a> Swimm case studies</li>
+                    <li><a target="_blank" href="https://swimm.io/blog/meeting-challenges-software-development-teams/">Swimm's whitepaper </a></li>
+                    <li><a target="_blank" href="https://swimm.io/blog/how-swimm-uses-swimm/">How Swimm uses Swimm</a></li>
                     </ul>
                 </p>
             },
@@ -289,7 +289,7 @@ Swimm doesn't replace comments in code - <a href="https://swimm.io/blog/walkthro
                 <p>
                     Our clients use Swimm in two ways to help new hires with their initial setup:
                     <ul>
-                    <li>Create an <a href="/docs/creating-content/playlists">organized set of steps</a> the onboardees should take and validate themselves. These steps can also be linked to code snippets (e.g., MAKEFILEs or devops scripts).</li>
+                    <li>Create an <a target="_blank" href="/docs/Features/Swimm-Playlists">organized set of steps</a> the onboardees should take and validate themselves. These steps can also be linked to code snippets (e.g., MAKEFILEs or devops scripts).</li>
                     <li>Create hands-on Swimm docs that explain parts of the deployment / build / debugging process.</li>
                     </ul>
 
@@ -315,7 +315,7 @@ Swimm doesn't replace comments in code - <a href="https://swimm.io/blog/walkthro
                     <li>Swimm syncing capabilities </li>
                     </ul>
 
-                    Swimm "<a href="/docs/getting-started-guide">Quick Start Guide</a>" is a 5 minutes tutorial that goes through Swimm's capabilities.
+                    Swimm "<a target="_blank" href="/docs/getting-started-guide">Quick Start Guide</a>" is a 5 minutes tutorial that goes through Swimm's capabilities.
                 </p>
             }
         ]
@@ -336,14 +336,14 @@ Swimm doesn't replace comments in code - <a href="https://swimm.io/blog/walkthro
                     </ol>
                     <br/>
                     <h4>SOC2</h4>
-                    <strong>Swimm is SOC 2 compliant</strong>. Additional information about Swimm's security profile can be found <a href="https://docs.swimm.io/github/">here</a>.
+                    <strong>Swimm is SOC 2 compliant</strong>. Additional information about Swimm's security profile can be found <a target="_blank" href="https://docs.swimm.io/github/">here</a>.
                     </p>
             },
             {
                 title: "Where are images stored in Swimm?",
                 content:
                     <p>
-                        By default, images are uploaded to our secure Cloud storage. It is possible to enable a configuration to allow you to store images in your repo so that they are loaded with relative paths. For more information, please reach out to Swimm's support team in our <a href="https://swimm.io/slack">Community Slack Channel</a> or email us at info@swimm.io
+                        By default, images are uploaded to our secure Cloud storage. It is possible to enable a configuration to allow you to store images in your repo so that they are loaded with relative paths. For more information, please reach out to Swimm's support team in our <a target="_blank" href="https://swimm.io/slack">Community Slack Channel</a> or email us at info@swimm.io
                     </p>
             },
             
@@ -357,13 +357,13 @@ Swimm doesn't replace comments in code - <a href="https://swimm.io/blog/walkthro
                 content:
                     <p>
                         Here are 3 of the best way to reach out to our Swimm Support team:<br/>
-                        Reach out to us on our <a href="https://swimm.io/slack">Community Slack Channel</a>. 
+                        Reach out to us on our <a target="_blank" href="https://swimm.io/slack">Community Slack Channel</a>. 
                         <br/>
                         <br/>
                         <ol>
                         <li>You can also join the Community Slack Channel in the Help Center in the web app.</li>
                         <li>Submit Swimm's "Give Feedback" form - also in the Help Center.</li>
-                        <li>Send us an <a href="info@swimm.io">email</a>.</li>
+                        <li>Send us an email to <i>info@swimm.io</i>.</li>
                         </ol>   
                     </p>
             },
@@ -374,7 +374,7 @@ Swimm doesn't replace comments in code - <a href="https://swimm.io/blog/walkthro
                          If you do not see the repository that you wish to add, most likely your organization doesn't have the correct Swimm permissions.
                         <br/><br/>
                         After you click "Connect Repository," click on the "Manage Scope" button to grant organizational access to Swimm, 
-                        You may also ask your Admin at Swimm for additional assistance, or reach out to us on our <a href="https://swimm.io/slack">Community Slack Channel</a>.
+                        You may also ask your Admin at Swimm for additional assistance, or reach out to us on our <a target="_blank" href="https://swimm.io/slack">Community Slack Channel</a>.
                     </p>
             },
             {
@@ -441,7 +441,7 @@ Swimm doesn't replace comments in code - <a href="https://swimm.io/blog/walkthro
                         integrations and account management. A Swimm Admin doesn't have to be a GitHub organization owner, 
                         nor a Slack Admin to integrate with Swimm. 
                         <br/> <br/>
-                        Please reach out to on our <a href="https://swimm.io/slack">Community Slack Channel</a> if you have any questions about the Admin status.
+                        Please reach out to on our <a target="_blank" href="https://swimm.io/slack">Community Slack Channel</a> if you have any questions about the Admin status.
                     </p>
             },
             {
@@ -465,7 +465,7 @@ Swimm doesn't replace comments in code - <a href="https://swimm.io/blog/walkthro
                                 <strong>Write permission:</strong> Swimm uses a special directory named .swm/ in your repo to store your documentation along with a unique identifier that correlates your documentation to your repository.
                             </li>
                         </ul>
-                        Read more about permissions <a href="/docs/authorization/permissions/">here</a>. 
+                        Read more about permissions <a target="_blank" href="/docs/authorization/permissions/">here</a>. 
                     </p>
             },
             {
@@ -486,7 +486,7 @@ Swimm doesn't replace comments in code - <a href="https://swimm.io/blog/walkthro
                 title: "What's The Difference Between Swimm's GitHub App And Swimm's GitHub Action?",
                 content:
                     <p>
-                       <a href="https://github.com/apps/swimm-io">Swimm's GitHub app</a> is a native integration created by Swimm leveraging GitHub's Check mechanism. This means that you don't have to run any manual scripts as part of your CI pipeline (unlike GitHub Actions) since the GitHub App takes care of all of this for you. 
+                       <a target="_blank" href="https://github.com/apps/swimm-io">Swimm's GitHub app</a> is a native integration created by Swimm leveraging GitHub's Check mechanism. This means that you don't have to run any manual scripts as part of your CI pipeline (unlike GitHub Actions) since the GitHub App takes care of all of this for you. 
                         <br/><br/>
                         With Swimm's GitHub app, you can configure multiple configurations such as:
                         <ol>
@@ -496,7 +496,7 @@ Swimm doesn't replace comments in code - <a href="https://swimm.io/blog/walkthro
                         <li>Receiving an email whenever a new doc was merged to the default branch. </li>
                         </ol>
                         <br/><br/>
-                        If you're using GitHub, we strongly encourage you to <a href="https://github.com/apps/swimm-io">install our GitHub app</a>. This will provide the best possible experience for everyone involved from the originator of the PR all the way to the reviewer. For more information on Swimm's GitHub app, see <a href="/docs/continuous-integration/github-app"> here</a>.
+                        If you're using GitHub, we strongly encourage you to <a target="_blank" href="https://github.com/apps/swimm-io">install our GitHub app</a>. This will provide the best possible experience for everyone involved from the originator of the PR all the way to the reviewer. For more information on Swimm's GitHub app, see <a target="_blank" href="/docs/continuous-integration/github-app"> here</a>.
  
                     </p>
             },
@@ -504,11 +504,11 @@ Swimm doesn't replace comments in code - <a href="https://swimm.io/blog/walkthro
                 title: "How does viewing docs in VS Code work with the IDE extension? I have it installed in my VS Code, but it doesn't seem to do anything.",
                 content:
                     <p>
-                         Swimm has an <a href="/docs/ide-integrations/ide-plugins-vscode">integration with VS Code</a> enabling documentation 
+                         Swimm has an <a target="_blank" href="/docs/ide-integrations/ide-plugins-vscode">integration with VS Code</a> enabling documentation 
                          icons over your code.
                         <br/><br/>
                         After installing Swimm's VS Code plugin, you will be asked to login to your Swimm account. 
-                        If you don't have a Swimm account, you can register <a href="https://app.swimm.io/register">here</a>. 
+                        If you don't have a Swimm account, you can register <a target="_blank" href="https://app.swimm.io/register">here</a>. 
                         <br/><br/>
                         After logging in, you will have a Swimm icon on your VS Code sidebar. 
                         Clicking it will show the Swimm panel with all the documentation already created.
@@ -540,7 +540,7 @@ Swimm doesn't replace comments in code - <a href="https://swimm.io/blog/walkthro
                 <p>
                     Swimm IDE plugins for VS Code and the Jetbrains Suite are available in the Microsoft / Jetbrains marketplace. The current versions of the plugins are for read only documentation.
                     <br/><br/>
-                    Swimm is currently working on a release to create documentation from the IDE. The release is planned in the coming months. If you want to know more exact roadmap details, please reach out to us on our <a href="https://swimm.io/slack">Community Slack Channel</a>.
+                    Swimm is currently working on a release to create documentation from the IDE. The release is planned in the coming months. If you want to know more exact roadmap details, please reach out to us on our <a target="_blank" href="https://swimm.io/slack">Community Slack Channel</a>.
                 </p>
             }
         ],
