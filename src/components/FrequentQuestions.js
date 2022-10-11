@@ -336,7 +336,7 @@ Swimm doesn't replace comments in code - <a target="_blank" href="https://swimm.
                     </ol>
                     <br/>
                     <h4>SOC2</h4>
-                    <strong>Swimm is SOC 2 compliant</strong>. Additional information about Swimm's security profile can be found <a target="_blank" href="https://docs.swimm.io/github/">here</a>.
+                    <strong>Swimm is SOC 2 compliant</strong>.
                     </p>
             },
             {
