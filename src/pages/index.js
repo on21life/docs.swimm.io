@@ -19,7 +19,7 @@ function HomepageHeader() {
             to="/docs/getting-started-guide">Fifteen Minute Quickstart &raquo;</Link>
           <Link
             className="button button--secondary button--lg"
-            to="/github">See Our Security Overview &raquo;</Link>          
+            to="/security">See Our Security Overview &raquo;</Link>          
         </div>
       </div>
     </header>
