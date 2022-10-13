@@ -7,11 +7,12 @@ import Link from '@docusaurus/Link';
 
 # What Permissions Are Required?
 
-Swimm requires both read and write permissions on our platform. In this document, we explain more about why these permissions are required. 
+Swimm require three types of permissions: organizational, read, and write permissions.
+<br/>
 
 :::tip We Never Store Your Code On Our servers
 
-We have a special <Link to="/github">security FAQ for GitHub </Link>that answers many questions about
+We have a special [privacy and security FAQ](https://docs.swimm.io/security) that answers many questions about
 how things are stored and transmitted. Your code and snippets aren't stored 
 on our servers; Swimm just needs permission to read files, analyze changes,
 and write the content you create to the `.swm/` directory. 
@@ -28,14 +29,11 @@ organization.
 
 ## Read permissions
 
-In order to be able to select code snippets within the <Link to="/docs/creating-content/snippet-studio">
-Snippet Studio</Link>, Swimm will need to be able to read the repository.
+In order to be able to select code snippets within the **Snippet Studio**, Swimm will need to be able to read the repository.
 
 Swimm also needs access to the entire commit history in order to be able to understand
-and account for code changes. This is what enables Swimm's <Link to="/docs/publishing-content/autosync">
-Auto-sync</Link> algorithm to automatically process 
-changes to your code, automatically syncing <Link to="/docs/creating-content/smart-tokens">
-Smart Paths & Smart Tokens</Link>. Your code remains in your repo, and Swimm simply stores metadata about snippets, paths
+and account for code changes. This is what enables **Swimm's Auto-sync algorithm** to automatically process 
+changes to your code, automatically syncing **Smart Paths & Smart Tokens**. Your code remains in your repo, and Swimm simply stores metadata about snippets, paths
 and tokens so that it can remember what it's supposed to keep track of.
 
 ## Write permissions
