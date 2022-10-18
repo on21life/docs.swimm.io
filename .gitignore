@@ -31,3 +31,4 @@ yarn.lock
 
 # Local version caches used for release notes generation
 .swimmreleases/
+package-lock.json
