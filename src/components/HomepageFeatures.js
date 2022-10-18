@@ -13,7 +13,7 @@ const FeatureList = [
       </>
     ),
     link_title: 'Find Out How',
-    link_href: '/docs/New%20to%20Swimm/continuous-documentation'
+    link_href: '/docs/new-to-swimm/continuous-documentation'
   },
   {
     title: 'Swimm\'s IDE Plugins',
