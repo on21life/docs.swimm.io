@@ -1,0 +1,19 @@
+---
+id: Export Your Content
+slug: export-your-content
+sidebar_position: 3
+---
+import Link from '@docusaurus/Link';
+
+# Export Your Content
+
+### Export to Notion
+
+As you can import Markdown in Notion, it might be the best option. However, Notion might not parse code snippets properly when imported as markdown. Try to use Pandoc to convert the Swimm markdown to HTML, and <Link href="https://www.notion.so/18c37b470e8941789548b68049af750b">import to Notion.</Link> 
+
+### Export to Confluence 
+
+Use Pandoc to convert the Swimm markdown to HTML, and then <Link href="https://community.atlassian.com/t5/Confluence-questions/Import-HTML-files-into-confluence/qaq-p/804375">import
+it into Confluence</Link>. You can also try automating this by exporting to other formats that their RESTful API supports.
+
+With Atlassian Confluence, this is most easily accomplished by defining a page ID that will be the parent for your Swimm content, and creating pages as children of that page for each document you want to publish. This allows you to automate updating Confluence when your Swimm docs update.
