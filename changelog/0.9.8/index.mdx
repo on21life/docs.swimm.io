@@ -1,0 +1,39 @@
+---
+slug: release-0.9.8
+title: Swimm 0.9.8 Released
+authors: [swimm] 
+tags: [release-notes]
+date: 2022-10-25
+---
+import {SwimmLink, SwimmMoji, SwimmReleaseBlogPost, SwimmReleaseTweet, SwimmReleaseVideo} from '../../src/components/SwimmUtils.js';
+import Link from '@docusaurus/Link';
+
+# Swimm 0.9.8 Has Been Released!
+
+We're pleased to announce the availability of **Swimm 0.9.8**<SwimmMoji text="release"/>
+
+<SwimmReleaseBlogPost version="0.9.8" />
+
+<SwimmReleaseVideo version="0.9.8" />
+
+## New Features:
+- **Content Suggestions** - To ease the writing process in new blank docs, you can now get suggestions for picking a document title and structuring your docs. When you start to write the title, a dropdown appears with title and document type suggestions. Once a title is selected, the editor sidebar suggests relevant content block templates you can add to the doc.
+- **GitHub App Settings** - There is a new GitHub App Settings option to skip automatic Auto-sync approval on draft PRs.
+- **Import Data From Other Apps** - Swimm now supports importing data from other apps such as Notion & Confluence so you can centralize all of your data in one place. To start importing, simply click the `New` icon on the repo page, and select the desired import option.
+- **Import Multiple Markdown Files** - You can now import multiple Markdown files at once! Simply click the `New` icon on the repo page, and either manually upload from your computer or scan your repository to detect all existing Markdown files to import to Swimm.
+- **Auto-Join Swimm Workspaces** -  If you are an Admin of your team's workspace, you can now enable auto-workspace. Join with your company's email domain rather than having new members request to join. Note, this is currently only available to members signing up through Google. You can configure `Auto-Join` under the `Invites` component on the home page. 
+
+## Improvements:
+- **Creating Docs in Playlists** - You can create new documentation for your Playlists inside an existing Playlist. To add a new step to your Playlist, select a blank doc or another option as usual to create a new doc.
+- **PR Comments in GitHub Appt** - When a new PR comment is added by Swimm related to outdated or Auto-synced content, previous Swimm comments in the PR are automatically hidden. 
+- **Create Doc From PR** - When inside the default branch of a repository, the `Merged Pull Requests` section is no longer displayed.
+- **Cloud Docs** - Added support for Mermaid diagramming and charting.
+- **Improved Playlist Creation Experience** - Rather than having to create documentation first and then add them to your Playlist, you can now create docs from within the Playlists without needing to switch contexts. When you add a step to your Playlist, select `Blank doc` or another option to start building your dream Playlist.
+- **Doc Tags** - In a documentation list, we now show the `Manage Tags` menu when clicking the tag icon instead of hovering over it.
+
+## Bug Fixes
+- **Cloud Docs** - When sharing a draft and navigating to the shared link and clicking `Edit` an `Unavailable Document` page is no longer displayed.
+
+For further information and any questions, please reach out to us on our <SwimmLink target="slack" />.
+
+<SwimmReleaseTweet version="0.9.8" />
