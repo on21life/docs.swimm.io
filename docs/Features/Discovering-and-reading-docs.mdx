@@ -8,6 +8,11 @@ import Link from '@docusaurus/Link';
 
 # Discovering and Reading Documentation
 
+Global Search is available across code-coupled docs, Cloud Docs, and Playlists in your workspace. 
+
+To search, use ⌘+K (MacOS) or CTRL+K (Windows/Linux) or the search icon at the top right corner. For code-coupled content, Swimm will perform a global search only on the default branch and on committed docs/Playlists.
+
+
 ## Cloud Docs
 
 Cloud Docs are stored in the Cloud so that anyone in your workspace can view these docs, even if they don’t have access to your repo.
@@ -18,16 +23,23 @@ Since Cloud Docs are not connected to your code, they are useful for both develo
 
 Cloud Docs are stored in the Cloud so that anyone in your workspace can view these docs, even if they don’t have access to your repo. 
 
-You can also publish Repo Docs to the Cloud so that anyone from your workspace can review them - even if they don't have access to your repo.
+Admins can publish docs from a repo to the Cloud so that even when users don't have access to the repo, they will be able to view those docs.  Pubished Docs are kept in sync with Swimm's GitHub App.
 
 Since Cloud Docs are not connected to your code, they are useful for both developers and other members of your team for storing knowledge about processes, methodologies, or other non-technical documents.
 
-You don’t have to authorize your Swimm account with GitHub in order to create Cloud Docs. To start working on a Cloud Doc, click on “Cloud Docs” from the left sidebar, then click “New.” Your Cloud Doc will be automatically created and saved as soon as you save it and give it a title, or after you start entering text below the title.
+You don’t have to authorize your Swimm account with GitHub in order to create Cloud Docs. To start working on a Cloud Doc, click on `Cloud Docs` from the left sidebar, then click `New`. Your Cloud Doc will be automatically created and saved as soon as you save it and give it a title, or after you start entering text below the title.
 
 ### Are Cloud Docs private?
-Cloud Docs are private by default. This means that initially only you can view your newly created Cloud Docs. To change sharing settings for a Cloud Doc, click on “Private” from the top right corner of the doc, and select the “Workspace” option. You can decide to switch back to “Private” mode.
+Cloud Docs are private by default. This means that initially only you can view your newly created Cloud Docs. To change sharing settings for a Cloud Doc, click on `Private` from the top right corner of the doc, and select the `Workspace` option. You can decide to switch back to “Private” mode.
 
 At this point, Cloud Docs that are shared on the workspace level can only be edited by the creator of the doc. In addition, it is not possible to add code-coupled snippets, Smart Paths, or Smart Tokens to a Cloud Doc.
 
-Note that on the “Everything” page, only Workspace level Cloud Docs are displayed - not private Cloud Docs.
+Note that on the `Everything` page, only Workspace level Cloud Docs are displayed - not private Cloud Docs.
 
+## Multi-Repo Docs
+
+Multi-repo docs are docs that contain one or more snippets from more than one repository. With Swimm, you can create docs with code snippets across multiple repositories. 
+
+Here's how: When opening the Snippet Studio, select snippets from any workspace repository. (Selecting Smart Tokens and Smart Paths from other repositories is not currently supported.)
+
+Snippets in a Multi-repo doc from other repositories are always Auto-synced from the default branch. When there are outdated or Auto-synced snippets in a Multi-repo doc, they can be resolved directly from the Swimm App (not from Swimm's GitHub App). 
