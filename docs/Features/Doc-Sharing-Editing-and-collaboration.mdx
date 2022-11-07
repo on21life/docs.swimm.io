@@ -21,13 +21,15 @@ All mentioned users inside a doc will appear on the right sidebar for added visi
 You can share a doc draft with your teammates in order to get it reviewed, via Cloud Drafts.
 To make this possible, an admin in your workspace needs to enable a setting from the Integrations & Settings popup available via the left sidebar after hovering over the desired repo.
 
-A Cloud Draft will remain in the Cloud for up to 30 days. A local version of a draft will still be available after the cloud draft expires unless the draft was already committed.
+Users can share a doc draft by clicking the share icon from the top right corner of the edit doc page and clicking on `Copy Link`.
+
+The default setting is Local Drafts. A Cloud Draft will remain in the Cloud for up to 30 days. A local version of a draft will still be available after the cloud draft expires unless the draft was already committed.
 
 ![Sign into GitHub](../../static/img/Sharing1.png)
 
 
 ## Assigning docs
-You can ask your teammates to review or update a particular doc or just share it as an FYI. This is possible with the “Assign” feature in Swimm located on the right sidebar. You can assign a doc to one or more Swimm users or email addresses. 
+You can ask your teammates to review or update a particular doc or just share it as an FYI. This is possible with the “Assign” feature in Swimm located on the right sidebar. You can assign a doc to multiple users at the same time. 
 
 You can choose from a predefined set of reasons (needs review, needs updating, FYI, other) and assign it and include an optional note. After assigning a doc, the assignees will receive a notification along with the assignment details. 
 
@@ -35,7 +37,7 @@ You can see all assignments for a particular doc (your assignments will appear f
 
 Assignments assigned to you will contain a “Mark as Complete” icon, which when clicked will mark the assignment as completed, and the assigner will automatically receive a notification in such case telling them the assignment was successfully completed. 
 
-Alternatively, if the assignment is no longer relevant, the assignee or assigner of an assignment can remove an assignment by clicking the delete icon.
+Alternatively, if the assignment is no longer relevant, the assignee or assigner of an assignment can remove the assignment by clicking the delete icon.
 
 ![Sign into GitHub](../../static/img/Assign1.png)
 
@@ -48,7 +50,32 @@ By creating a doc request, you should explain what type of doc you need by writi
 
 Once you’ve assigned a request to a teammate, they will be notified by email. 
 
+A doc request will automatically be marked as completed once you've merged its associated doc to the default branch. Note, that this requires installing the Swimm GitHub App.
+
+
 ![Sign into GitHub](../../static/img/Request1.png)
+
+## Thanking your team for a doc
+
+With Swimm you can send a quick thank you to anybody who contributes to creating a doc you've benefited from. 
+
+Here's how: At the bottom of the document, there are 3 options you can pick: **great doc, time-saver, and valuable insights.** 
+
+You can assign a doc to a Swimm user or email address via the Assign link located below the document title. You can choose from a predefined set of reasons (needs review, needs updating, FYI, other) and assign it and include an optional note. After assigning a doc, the assignee will receive an email with the assignment details.
+
+You can see a list of all contributors on a doc (not only the last contributor) when viewing a doc. 
+
+
+## Documentation Tags
+
+You can add documentation tags on your docs or doc drafts. 
+
+Tags are saved in the doc when the draft is committed, and you can filter your docs by tag in your repos.
+When a tag is created, it can be used across all of your workspace repositories. 
+
+You can manage your tags (add, remove or rename) tags on any of your docs directly from within the Home Page, Everything Page, or from within a specific repository.
+When adding a tag from a specific doc, the list of workspace tags is ordered alphabetically. 
+
 
 ## Continuous Publish
 Admins can allow publishing docs from a repo to the Cloud, so that even when users don't have access to the repo, they will still be able to view those docs. 
@@ -70,6 +97,14 @@ Under Notifications, you’ll see the following:
 3. When you have a new notification, you’ll see that it’s blue with a red dot. This will let you know that it’s the first time you’ve seen the notification. Once you close the notification, the red dot disappears.
 
 ![Sign into GitHub](../../static/img/Notification2.png)
+
+### Get Swimm Notifications in Slack
+
+Swimm plugs right into Slack, and makes it easier for you and your team to stay updated with documentation-related notifications. 
+
+An `Integrations` tab is available inside `User Settings` to install IDE plugins and to connect to Slack in order to receive personal Swimm notifications. Once you connect your repo to a Slack channel, you will automatically be notified whenever a new doc is merged to your default branch. As an admin, just go to the `Integrations` page and click the `Install` button next to Slack.
+
+You can control personalized email, Slack, and in-app notifications when an important action affecting you occurs. The new notifications area can be accessed from Profile > User Settings > Notifications.
 
 
 ## Doc sidebar 
