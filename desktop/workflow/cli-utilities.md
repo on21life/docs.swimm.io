@@ -1,6 +1,11 @@
+---
+slug: /workflow/cli/
+sidebar_position: 8
+---
+
 # Swimm's CLI Utilities
 
-If you have not yet done so, we highly recommend reading our entry on [Continuous Integration](Continuous%20Integration). Many of Swimm's command line tools are there to alert you of things that need attention, and we highly recommend that you run these things through your CI server or at the pre-commit stage. 
+If you have not yet done so, we highly recommend reading our entry on [Continuous Integration](../continuous-integration/). Many of Swimm's command line tools are there to alert you of things that need attention, and we highly recommend that you run these things through your CI server or at the pre-commit stage. 
 
 We'll run through the available commands here for reference, which you'll see used in a few other sections as well as tutorials. 
 

@@ -1,3 +1,8 @@
+---
+slug: /workflow/user-roles/
+sidebar_position: 6
+---
+
 # User Roles
 
 By default, all Swimm users have the ability to modify or remove any content that they create, and modify content that others have created. 

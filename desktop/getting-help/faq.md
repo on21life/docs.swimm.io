@@ -1,6 +1,10 @@
+---
+slug: /getting-help/faq/
+sidebar_position: 3
+---
 # General Troubleshooting
 
-Below are some common troubleshooting questions that we receive, with answers. These problems stem from things Swimm can't control (such as the way CI containers might be configured, or something as simple as a team member forgetting to push). If you run into trouble and don't see your question here, or need any other help, [contact us](Getting%20Support) and we'll help you figure it out.
+Below are some common troubleshooting questions that we receive, with answers. These problems stem from things Swimm can't control (such as the way CI containers might be configured, or something as simple as a team member forgetting to push). If you run into trouble and don't see your question here, or need any other help, [contact us](../support/) and we'll help you figure it out.
 
 ## A doc was started on another branch, but it never got pushed. Now we see a stub for it. What do we do?
 
@@ -26,7 +30,7 @@ Check with the admin of your CI server to find out what might be going wrong wit
 
 ## We don't have Node installed on our CI images, do we really need it?
 
-Yes. This isn't a pain point for running on the desktop as it's all neatly bundled, but the verification code does need node in order to run. If that's not possible (and there are many great reasons why that might be the case) we recommend [using pre-commit instead](../Workflow/Continuous%20Integration#pre-commit), or as a work-around to just evaluate how the process might look before you invest in updating your CI containers. 
+Yes. This isn't a pain point for running on the desktop as it's all neatly bundled, but the verification code does need node in order to run. If that's not possible (and there are many great reasons why that might be the case) we recommend [using pre-commit instead](../../workflow/continuous-integration#pre-commit/), or as a work-around to just evaluate how the process might look before you invest in updating your CI containers. 
 
 ## When Swimm Verify runs on our CI, everything is reported as out-of-date, but locally, it's current. Why?
 

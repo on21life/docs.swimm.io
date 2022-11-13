@@ -1,3 +1,7 @@
+---
+slug: /tutorials/rpm-packages/
+sidebar_position: 4
+---
 # Building Swimm RPM Packages
 
 Swimm's official release channels are Windows, MacOS & Ubuntu (which also covers other Debian-based GNU/Linux distriubtions). However, it's possible to extract the contents of the Ubuntu package, and turn it into an `.rpm` file, suitable for installation on Fedora or CentOS distributions. In this quick tutorial, we'll show you how to accomplish this from the point of view of using Fedora Relase 32 (x86_64)

@@ -1,3 +1,7 @@
+---
+slug: /tutorials/upgrading-swmd/
+sidebar_position: 1
+---
 # How To Upgrade To `sw.md` Format
 
 We're working hard on an upcoming release of Swimm that will bring us quite

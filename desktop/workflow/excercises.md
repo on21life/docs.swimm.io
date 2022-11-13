@@ -1,3 +1,9 @@
+---
+slug: /workflow/excercises/
+sidebar_position: 4
+---
+
+
 # Extra Features
 These are extra features of Swimm that are available at an additional plan level, or are still very experimental and require contacting us to enable them. If you'd like to use one of the features below, please reach out to us and we'll get you taken care of.
 

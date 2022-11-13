@@ -1,11 +1,16 @@
+---
+slug: /dive-in/
+sidebar_position: 1
+---
+
 # Diving In
 
 Are you ready for great documentation? Awesome! To get the most out of Swimm, we recommend that you read through the following sections:
 
- - [Workspaces](../Workflow/Workspaces)
- - [Playlists](../Workflow/Playlists%20And%20Plans)
- - [Documents](../Workflow/Documents)
- - [Smart Text & Smart Paths](../Workflow/Smart%20Text)
+ - [Workspaces](../workflow/workspaces/)
+ - [Playlists](../workflow/playlists-and-plans/)
+ - [Documents](../workflow/documents/)
+ - [Smart Text & Smart Paths](../workflow/smart-text/)
 
 Here's a quick video to illustrate Swimm's Document & Playlist workflow, as well as some tips on how to approach documenting a code base from scratch:
 
@@ -45,13 +50,13 @@ Don't forget to capture [all the high-level knowledge](#tying-narrative-docs-to-
 
 Libraries and APIs are difficult to generalize in a way where we can suggest exactly where to dive in beyond to say that Swimm can be the glue that you've been looking for to tie a lot of things together. You might be using Swagger to generate OpenAPI docs from code, and then using the Swagger/OpenAPI docs to generate route mappings for services - and this is a very common thing to do. Swimm is in it _for the human_ - what would someone unfamiliar with that process need to know? What's the base level of knowledge to understand it, and how does someone get there? Those are great ideas for playlists with lots of opportunities to bring in actual code.
 
-Swimm's snippets lend _extremely_ well to documenting client code for libraries, even if the library just wraps an API using a specific language. Using it, you can walk someone through how to instantiate the library, how to debug responses, and what calls are available. [Smart Text](../Workflow/Smart%20Text) along with snippets will help you ensure that this kind of documentation is easy to keep up-to-date.
+Swimm's snippets lend _extremely_ well to documenting client code for libraries, even if the library just wraps an API using a specific language. Using it, you can walk someone through how to instantiate the library, how to debug responses, and what calls are available. [Smart Text](../workflow/smart-text/) along with snippets will help you ensure that this kind of documentation is easy to keep up-to-date.
 
 **Don't forget to document likely endeavors** - A playlist to get started with a quick run through the five most common things someone would do with the library is a great starting point as well. If someone downloads `libcurl`, for instance, they probably want to know how to use it to make HTTP GET/POST/HEAD requests and would definitely appreciate a playlist that said "How to make basic HTTP requests."
 
 ## Documenting Microservice Flow
 
-You probably want some playlists that someone can follow through multiple repositories. As of right now, that's implemented with something called a [plan](../Workflow/Playlists%20And%20Plans). A plan is a playlist that can span multiple repositories. Very soon, this functionality will be merged into a single object, the playlist.
+You probably want some playlists that someone can follow through multiple repositories. As of right now, that's implemented with something called a [plan](../workflow/playlists-and-plans/). A plan is a playlist that can span multiple repositories. Very soon, this functionality will be merged into a single object, the playlist.
 
 Don't forget to document service flows based on common things that someone might want to do, as noted when relating to libraries above.
 
@@ -61,7 +66,7 @@ There are times when you need to explain things, but there really aren't any con
 
 While microservices are an example of a pattern that illustrates this well, it equally applies to any scenario where you want readers to have the narratives _about_ the code in addition to, and often _aside from_ the code itself.
 
-[We have a tutorial especially for this](../Tutorials/High%20Level%20Documentation), which we hope answers your questions. 
+[We have a tutorial especially for this](../tutorials/high-level-documentation/), which we hope answers your questions. 
  
 ## Expanding General Documentation Coverage
 

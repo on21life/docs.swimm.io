@@ -1,6 +1,11 @@
+---
+slug: /workflow/workspaces/
+sidebar_position: 1
+---
+
 # Workspaces
 
-Workspaces are home bases where teams can collaborate. Workspaces group repositories together so that they can relate to [Playlists And Plans](Playlists%20And%20Plans). Think of them a a landing page that groups repositories together as a starting point.
+Workspaces are home bases where teams can collaborate. Workspaces group repositories together so that they can relate to [Playlists And Plans](../playlists-and-plans/). Think of them a a landing page that groups repositories together as a starting point.
 
 You can have as many workspaces as you need, use them whenever it makes sense in the scheme of how your teams are organized. It's expected that several or more workspaces might feature some of the same repositories. It's also expected that developers might be active in multiple workspaces. **If you're at all unsure of how many workspaces you need, we suggest starting with just one, and seeing how your needs grow from there.**
 

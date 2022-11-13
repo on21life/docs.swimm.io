@@ -1,6 +1,11 @@
+---
+slug: /workflow/smart-text/
+sidebar_position: 7
+---
+
 # Swimm Smart Text
 
-We talked about Swimm's Smart Text feature in the [Documents](Documents#smart-text) overview, but we'll expand on it in a little more detail here. Smart Text & Smart Paths can save you hours of having to update your documentation to reflect refactoring with clunky regular expressions. Smart Text & Smart Paths are some of Swimm's most powerful features.
+We talked about Swimm's Smart Text feature in the [Documents](../documents/#smart-text) overview, but we'll expand on it in a little more detail here. Smart Text & Smart Paths can save you hours of having to update your documentation to reflect refactoring with clunky regular expressions. Smart Text & Smart Paths are some of Swimm's most powerful features.
 
 :::note Video Tutorial: Swimm's Smart Text & Smart Paths Feature Walkthrough
 

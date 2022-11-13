@@ -1,3 +1,8 @@
+---
+slug: /workflow/ide-plugins/
+sidebar_position: 9
+---
+
 # IDE Plugins
 
 Swimm currently supports integration with VSCode, and all JetBrains IDEs. Our next target IDE is Visual Studio.
@@ -20,7 +25,7 @@ And then you'll see links to documentation above any code referenced in a snippe
 
 Clicking on the 'hint' link will do one of two things, depending on how you have Swimm setup:
 
- 1. If you have [markdown export enabled](../Getting%20Help/How%20Do%20I#how-do-i-enable-markdown-exporting), Swimm will load the corresponding Markdown file as a new tab in VSCode. 
+ 1. If you have [markdown export enabled](../../getting-help/how-do-i#how-do-i-enable-markdown-exporting), Swimm will load the corresponding Markdown file as a new tab in VSCode. 
  2. If you don't have export enabled, or no doc for the link has been generated yet, you'll be taken to the document within the app itself. 
 
 ## IntelliJ

@@ -1,3 +1,8 @@
+---
+slug: /getting-help/support/
+sidebar_position: 2
+---
+
 # How To Contact Swimm
 
 ## Slack / Email

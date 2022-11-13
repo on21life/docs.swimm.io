@@ -1,3 +1,8 @@
+---
+slug: /workflow/documents/
+sidebar_position: 2
+---
+
 # Documents
 
 Documents (affectionately called "Docs" in Swimm terminology) are smart objects that tie your narratives to your code. Docs can contain markdown-formatted text, images, links and most important of all, selectable code snippets. As your code changes, any docs that incorporate code snippets will stay in sync.
@@ -5,7 +10,7 @@ Documents (affectionately called "Docs" in Swimm terminology) are smart objects 
 Swimm gives you two options when creating Docs:
 
  - Create a new, blank document ready for you to dive into. You might grab this option if you've got what you want to write about top-of-mind and you're ready to start cranking it out. 
- - [Create a doc from a commit SHA](../Getting%20Help/How%20Do%20I#how-do-i-start-a-document-from-a-commit-sha-what-are-the-advantages-to-this), which will pull in snippets from files affected during your most recent commit, which can be a **fantastic** basis for writing new documentation. Keep the snippets you want and need, remove or reselect the rest. 
+ - [Create a doc from a commit SHA](../../getting-help/how-do-i/), which will pull in snippets from files affected during your most recent commit, which can be a **fantastic** basis for writing new documentation. Keep the snippets you want and need, remove or reselect the rest. 
 
 
 ## Code Snippets
@@ -32,7 +37,7 @@ While editing, pressing the `/` key will bring up a menu that enables you to eas
 
 But, a few months later, you need to re-name it as you refactor a bunch of code in the same namespace and realize that you want to have more granular control over different types of connections. With Swimm, _you don't need to worry about updating the documentation everywhere_, as Swimm will understand the change, and use your replacement everywhere. This means you only have to accept Swimm's suggestion (or re-select the snippet with the constant) and the change will apply to all of the docs that reference it.
 
-This is a great feature of Swimm, so it [has its own Smart Text section](Smart%20Text) to dive deeper into situations where you're likely to find it extremely helpful! 
+This is a great feature of Swimm, so it [has its own Smart Text section](../smart-text) to dive deeper into situations where you're likely to find it extremely helpful! 
 
 
  

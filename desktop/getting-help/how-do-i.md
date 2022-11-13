@@ -1,10 +1,15 @@
+---
+slug: /getting-help/how-do-i/
+sidebar_position: 1
+---
+
 # How do I ... (Common Questions)
 
 We have many questions that pertain to general technical concepts in Swimm asked and answered [on our website](https://swimm.io/blog/get-started-with-swimm-most-frequently-asked/). If you have not yet seen them, please take a look - they answer questions you might have about setting up workflows, and how Swimm thinks and works at a high level. 
 
 Below are questions that you might have as you actually dive into writing documentation using Swimm. If you have a question that isn't answered here, please don't hesitate to reach out to us!
 
-You can also check our [troubleshooting tips](FAQ) for common problems.
+You can also check our [troubleshooting tips](../faq/) for common problems.
 
 ## How do I enable markdown exporting?
 
@@ -34,7 +39,7 @@ At this point, you'll be brought to the editor where you can adjust the snippets
 
 ## How do I incorporate markdown documents that I already have into playlists? Can I import them?
 
-We're working hard on a way to import existing markdown documentation so that your Markdown files become Swimm documents ready to be coupled to your code. We're not quite there yet, but you _can_ link to your existing markdown files in playlists (as we'll show below), or use [Smart Paths](../Workflow/Smart%20Text) within docs to reference other `.md` files in your repository.
+We're working hard on a way to import existing markdown documentation so that your Markdown files become Swimm documents ready to be coupled to your code. We're not quite there yet, but you _can_ link to your existing markdown files in playlists (as we'll show below), or use [Smart Paths](../../workflow/smart-text) within docs to reference other `.md` files in your repository.
 
 The playlist link editor allows you to link to files within the repo using a path that is relative to the repo root. In this example, we'd link to the README file in the root of the repository. If we wanted to, we could change that to `documents/markdown/README.md` instead. Make sure you click on the "links" option in the playlist editor, and then add your link as shown:
 

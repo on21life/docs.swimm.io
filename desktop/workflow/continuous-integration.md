@@ -1,3 +1,8 @@
+---
+slug: /workflow/continuous-integration/
+sidebar_position: 5
+---
+
 # Continuous Integration
 
 We highly recommend that you incorporate continuous integration into your workflow if you haven't yet, and make Swimm a part of that integration. 
@@ -17,7 +22,7 @@ Examples for Github Actions, Bitbucket Pipelines, Travis and Husky can be found 
 
 ![Swimm CI Options](/img/desktop/swimm-ci.png "Swimm's CI Options")
 
-**Note: If you see any errors about git not properly being configured, [make sure the CI image has the minimum config needed for git to work read-only](../Getting%20Help/FAQ#i-see-error-your-git-is-not-properly-configured-in-reference-to-username)** 
+**Note: If you see any errors about git not properly being configured, [make sure the CI image has the minimum config needed for git to work read-only](../../getting-help/faq#i-see-error-your-git-is-not-properly-configured-in-reference-to-username/)** 
 
 We never commit during the CI process, but Git needs an email and name configured to do most read operations as well.
 

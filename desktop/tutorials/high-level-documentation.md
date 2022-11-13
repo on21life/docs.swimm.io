@@ -1,3 +1,8 @@
+---
+slug: /tutorials/high-level-documentation/
+sidebar_position: 2
+---
+
 # Coupling Dissertation-style Docs To Code
 
 High-level documentation is an important part of software documentation that is often overlooked. When we refer to high-level documentation, we're referring specifically to things like:
@@ -23,4 +28,4 @@ In a nutshell:
 
  There's no one-size-fits-all approach to doing this, it depends on how your code is organized and how you're running the CI / pre-commit checks. With a little creativity, you can successfully keep an eye on these.
 
- We highly recommend using [Swimm's Smart Text feature](../Workflow/Smart%20Text) wherever possible across all of your documentation in addition to this, as it will save you time and effort.
+ We highly recommend using [Swimm's Smart Text feature](../../workflow/smart-text/) wherever possible across all of your documentation in addition to this, as it will save you time and effort.
