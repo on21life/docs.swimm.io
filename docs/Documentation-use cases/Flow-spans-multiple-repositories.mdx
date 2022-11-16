@@ -1,0 +1,29 @@
+---
+id: Flow Spans Multiple Repositories
+slug: flow-spans-multiple-repositories
+sidebar_position: 3
+---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
+
+# Flow Spans Multiple repositories
+
+## Doc use case: flow spans multiple repositories
+
+### Why should you write this doc?
+
+Create documentation when describing data flows with code spanned across multiple repositories. For example, a system where the frontend’s code is in one repository, and the backend’s code is in another repository.
+
+The problem worsens as the number of repositories involved in the flow increases. With a document that contains code parts from all relevant repositories, understanding the flow is very straightforward.
+
+Thus, a doc describing a flow spanning multiple repositories is essential.
+
+In other cases, you would want to explain how a single service calls another service, even without describing how that other service works under the hood.
+
+## How should you write the doc? What should you prepare?
+- Go through your code, and trace the data as it flows back and forth between the different components.
+- If there are flows that are actually a recurring pattern, look for one that is simple yet covers the whole story. For example, if you explain the flow of an API request going from the frontend to the backend - find one example that shows this interaction clearly, without too many specific details.
+
+## What should be in the doc?
+- High-level description of the services that are involved in the process, and include the role of each?.
+
