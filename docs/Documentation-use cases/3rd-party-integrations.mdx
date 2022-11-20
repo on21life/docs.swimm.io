@@ -1,0 +1,49 @@
+---
+id: Third party integrations
+slug: third-party-integrations
+sidebar_position: 1
+---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
+
+# Third Party Integrations
+
+## Doc use case: third party integrations
+
+### Why should you write this doc?
+We rely on many libraries when writing code. Some of them are so widely used, they have practically become a part of the programming language. Most 3rd party libraries are not.
+
+### The 3 reasons you should write this doc:
+
+1. Each 3rd party comes with its own caveats (dos and don’ts.) Moreover, when we use a 3rd party in our codebase, we have our own best practices - how we use it.
+
+2. It is very rare to use all of the functionality within a 3rd party. We use a subset of this library’s functionality. We need to know what we use, how and why we use it as we use it. This information is rarely found in the library’s external documentation, and if it is - it’s hard to find as it is surrounded by many details that are generic and do not apply to our specific use-cases.
+
+3. Many times, we use a wrapper to hide most of the internal details of how we use the 3rd party library. However, in this case, it’s important to describe: 
+    a. how to use this wrapper, and 
+    b. how it operates, and what underlying assumptions we made when implementing it for anyone who will need to dive into its code.
+
+## How should you write the doc? What should you prepare?
+- Go through usage examples of the library. 
+- Look for simple examples that demonstrate your usage of it.
+
+## What should be in the doc?
+
+**Fast Track Doc:**
+
+1. The document should contain a general explanation of this library including:
+    - Its purpose.
+    - Why and how we use it in our codebase (a very short description).
+    - A link to its external documentation.
+
+2. Include a concrete usage example from the codebase. Mention the important functions that are used.
+3. Describe the best practices (dos and don’ts) regarding the usage of this library in our codebase.
+
+4. Mention when there are specific assumptions or tweaks for the use-case of this specific codebase, such as:**
+    - A workaround to make something work differently than intended
+    - Specific configuration details or parameters we pass to the library’s API for some reason.
+
+5. Explain if there is a wrapper:
+    - Where this wrapper is located in the code.
+    - How it is used, and provide a usage example.
+    - How it is implemented.
