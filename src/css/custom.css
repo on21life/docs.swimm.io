@@ -5,6 +5,8 @@
  */
 
 /* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&family=Roboto+Mono:wght@400&display=swap');
+
 :root {
   --ifm-color-primary: #4154FF;
   --ifm-color-primary-dark: #1F36FF;

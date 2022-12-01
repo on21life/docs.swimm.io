@@ -107,7 +107,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           //{type: 'doc',docId: 'Welcome', label: 'Documentation', position: 'left',},
           //{to: '/faq',label: 'FAQ',position: 'left',},
           //{to: '/security',label: 'Privacy & Security',position: 'left',}
-          //{to: '/changelog', label: 'Changelog', position: 'left'},
+          {to: '/changelog', label: 'Changelog', position: 'right'},
           {
             href: 'https://app.swimm.io',
             label: 'Log In',
