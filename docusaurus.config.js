@@ -104,45 +104,23 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           srcDark: 'img/logo-white.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'Welcome', 
-            label: 'Documentation', 
-            position: 'left'
-          },
-          {
-            to: '/faq',
-            label: 'FAQ',
-            position: 'left',
-          },
-          {
-            to: '/security',
-            label: 'Privacy & Security',
-            position: 'left',
-          },
-          {
-            to: '/changelog', 
-            label: 'Changelog', 
-            position: 'left'
-          },
-          {
-            to: '/support',
-            label: 'Support', 
-            position: 'left'
-          },
-          {
-            to: '/community',
-            label: 'Community',
-            position: 'left',
-          },
+          //{type: 'doc',docId: 'Welcome', label: 'Documentation', position: 'left',},
+          //{to: '/faq',label: 'FAQ',position: 'left',},
+          //{to: '/security',label: 'Privacy & Security',position: 'left',}
+          //{to: '/changelog', label: 'Changelog', position: 'left'},
           {
             href: 'https://app.swimm.io',
             label: 'Log In',
             position: 'right',
           },
           {
-            href: 'https://swimm.io/blog/',
-            label: 'Blog',
+            to: '/support',
+            label: 'Support', 
+            position: 'right'
+          },
+          {
+            to: '/community',
+            label: 'Community',
             position: 'right',
           },
           {
@@ -150,6 +128,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'GitHub',
             position: 'right',
           },
+          //{href: 'https://swimm.io/blog/',label: 'Blog',position: 'right',},
         ],
       },
       footer: {
