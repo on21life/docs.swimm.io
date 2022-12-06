@@ -100,7 +100,7 @@ const FAQIndex = {
                         <li>How to create a common component</li>
                         <li>An overview of a system or a process</li>
                         </ul>
-                        Swimm has several templates to start with, along with our Guided Doc Creation process on how to write effective documentation.
+                        Swimm has several templates to start with to write effective documentation.
                         <br/><br/>
                         <h4>Step 2:</h4>
                         Make sure all team members install Swimm's IDE plugin.  When your documentation appears naturally inside the IDE, it encourages your team to read it in context. What we know is that the key for investing in documentation is making sure people will find it easily when they need it the most.
