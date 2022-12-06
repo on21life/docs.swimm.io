@@ -109,11 +109,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           //{to: '/security',label: 'Privacy & Security',position: 'left',}
           {to: '/changelog', label: 'Changelog', position: 'right'},
           {
-            href: 'https://app.swimm.io',
-            label: 'Log In',
-            position: 'right',
-          },
-          {
             to: '/support',
             label: 'Support', 
             position: 'right'
@@ -126,6 +121,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             href: 'https://github.com/swimmio/docs.swimm.io',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://app.swimm.io',
+            label: 'Log In',
             position: 'right',
           },
           //{href: 'https://swimm.io/blog/',label: 'Blog',position: 'right',},

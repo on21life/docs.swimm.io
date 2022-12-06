@@ -6,6 +6,7 @@
 
 /* You can override the default Infima variables here. */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&family=Roboto+Mono:wght@400&display=swap');
+@import url("https://use.typekit.net/ghp6lrn.css");
 
 :root {
   --ifm-color-primary: #4154FF;
@@ -31,17 +32,14 @@
   --ifm-breadcrumb-item-background-active: rgba(141, 152, 255, 0.15);
   --ifm-color-info-contrast-background:  rgba(141, 152, 255, 0.15);
 
-  --ifm-h1-font-size: 40px;
+  --ifm-h1-font-size: 44px;
   --ifm-h2-font-size: 20px;
-  --ifm-h3-font-size: 1.25rem;
-  --ifm-h4-font-size: 1rem;
-  --ifm-h5-font-size: 0.875rem;
-  --ifm-h6-font-size: 0.85rem;
   --ifm-font-color-base: var(--ifm-color-content);
   --ifm-font-color-base-inverse: var(--ifm-color-content-inverse);
   --ifm-font-color-secondary: var(--ifm-color-content-secondary);
-  --ifm-font-family-base: Mulish, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  --ifm-font-family-monospace:'Roboto Mono',SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --ifm-font-family-base: mulish, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --ifm-font-family-monospace: 'Roboto Mono',SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --ifm-heading-font-family: roc-grotesk,sans-serif;
   --ifm-font-size-base: 14px;
   --ifm-font-weight-light: 300;
   --ifm-font-weight-normal: 400;
@@ -50,9 +48,14 @@
   --ifm-font-weight-base: var(--ifm-font-weight-normal);
 
   --ifm-alert-border-left-width: 3px;
+  --ifm-alert-shadow: none;
+  --ifm-alert-border-color:
   --ifm-global-spacing: 2%;
   --ifm-breadcrumb-border-radius: 4px;
+  --ifm-toc-border-color: rgba(141, 152, 255, 0.15);
+  --doc-sidebar-width: 320px !important;
 }
+
 html[data-theme='dark'] {
   --ifm-background-surface-color: #1D1E2B;
 }
@@ -61,16 +64,60 @@ html[data-theme='dark'] {
   backdrop-filter: blur(32px);
   box-shadow: none;
   border-bottom: solid 2px rgba(65, 84, 255, 0.1);
-  display: flex;
-  height: var(--ifm-navbar-height);
-  padding: var(--ifm-navbar-padding-vertical) var(--ifm-navbar-padding-horizontal);
+  padding: 20px 24px !important;
+  
 }
 .navbar__link {
   color: var(--ifm-color-primary);
-  font-weight: var(--ifm-font-weight-semibold);
+  font-weight: var(--ifm-font-weight-regular);
 }
+
+.navbar__link--active {
+  font-weight: var(--ifm-font-weight-semi-bold);
+}
+
+.toggle_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module {
+  margin-left: 16px;
+}
+
+.theme-doc-sidebar-item-link-level-1 > .menu__link{
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+
+.theme-doc-sidebar-item-link-level-1:nth-child(1) > .menu__link::before{
+  content: url('/img/welcome-icon.svg');
+  display: inline-block;
+  width: 24px;
+  margin-right: 12px;
+}
+
+.menu__list-item-collapsible::before{
+  content: url('/img/pin.svg');
+  display: inline;
+}
+
+.menu__list-item-collapsible{
+  font-weight: var(--ifm-font-weight-normal);
+  align-items: center;
+  padding: 8px;
+}
+
+.menu__list .menu__list {
+  padding-left: 16px;
+}
+
+li > ul > li > .menu__list-item-collapsible::before{
+  content: none;
+}
+
+li > ul > li > .menu__list-item-collapsible{
+  padding: 0px;
+}
+
 .markdown h1:first-child {
   --ifm-h1-font-size: 40px;
+  margin-top: 24px;
 }
 .markdown > h2 {
   --ifm-h2-font-size: 20px;
@@ -87,13 +134,43 @@ html[data-theme='dark'] {
   --ifm-alert-background-color:  rgba(141, 152, 255, 0.15);
   --ifm-alert-background-color-highlight: #2F3142;
   --ifm-color-info-dark:#8D98FF;
-  
+  border: solid 2px rgba(65, 84, 255, 0.30);
+  padding: 24px;
 }
+
+.alert a {
+  text-decoration-color: rgba(65, 84, 255, 0.5);
+  ;
+}
+
+.admonitionIcon_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module svg {
+  content: url('/img/quotation-start.svg');
+}
+
 .alert--success {
   --ifm-alert-background-color: rgba(222, 157, 255, 0.15);
   --ifm-alert-background-color-highlight: rgba(0, 164, 0, 0.15);
   --ifm-alert-foreground-color: var( --ifm-color-success-contrast-foreground );
-  --ifm-alert-border-color: #DE9DFF;
+  border: solid 2px rgba(209, 119, 255, 0.30);
+  ;
+  padding: 24px; 
+}
+blockquote {
+  border-left: var(--ifm-blockquote-border-left-width) solid var(--ifm-color-primary-lighter);
+  line-height: 30px;
+}
+blockquote::before {
+  content: url('/img/quotation-start.svg');
+  display: inline-block;
+  width: 24px;
+  margin-top: 8px;
+}
+
+blockquote::after {
+  content: url('/img/quotation-end.svg');
+  display: inline-block;
+  width: 24px;
+  margin-top: 8px;
 }
 
 .docusaurus-highlight-code-line {
@@ -115,20 +192,19 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .navbar {
     height: auto;
-    padding: 20px;
 }
 .menu__list {
-  margin: 8px 8px 8px 8px;
-  padding: 8px;
+  margin: 4px;
   padding-left: 0;
 }
+
 .menu__link{
   color: var();
   padding: 12px;
 }
 
 .padding-top--md {
-  padding-top: 6% !important;
+  padding-top: 5% !important;
 }
 @media (max-width: 996px){
   .col {
@@ -137,9 +213,9 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 .col {
-  margin-left: 3rem;
+  margin-left: 4%;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
   color: var(--ifm-heading-color);
   font-family: var(--ifm-heading-font-family);
   font-weight: var(--ifm-heading-font-weight);
@@ -168,10 +244,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 .menu__list .menu__list a.menu__link {
   border-left: 2px solid rgba(141, 152, 255, 0.30);
+  font-weight: var(--ifm-font-weight-normal);
+  padding-left: 22px;
 }
 
 .menu__list .menu__list a.menu__link--active {
   border-left: 2px solid #4154FF;
+}
+ul > li > ul > li > ul{
+  border-left: 2px solid rgba(141, 152, 255, 0.30);
+  margin: 0px 0px 0px 0px !important;
 }
 
 .menu__link, .menu__caret {
@@ -180,4 +262,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 .menu__list-item:not(:first-child) {
   margin-top: 0rem;
+}
+.iconExternalLink_node_modules-\@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module {
+  margin-left: 0.3rem;
+  display: none;
+}
+
+.table-of-contents, .table-of-contents ul {
+  padding: 4px 0px;
+}
+
+.table-of-contents li {
+  margin: 0px;
+  padding: 8px 16px;
+}
+
+.table-of-contents__left-border {
+  border-left: 2px solid var(--ifm-toc-border-color);
+}
+
+.table-of-contents__link--active{
+  font-weight: var(--ifm-font-weight-bold);
 }
