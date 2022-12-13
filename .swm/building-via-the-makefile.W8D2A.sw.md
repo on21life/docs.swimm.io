@@ -2,14 +2,13 @@
 id: W8D2A
 name: Building Via The Makefile
 file_version: 1.0.2
-app_version: 0.6.4-0
+app_version: 0.10.1-3
 file_blobs:
-  Makefile: 62f138c19c4c70cd40b15f148ecb77cb64b6bafa
-  docusaurus.config.js: 30cd143aea2172d645633057483a87891c7b2970
+  Makefile: 193498ebcfb3b98f4d244fda3047e7b43e229eaa
+  docusaurus.config.js: 6074d3b80dbf69da9d7a70732d10976811c58ba5
 ---
 
-Running A Build (And Rebuilding Prod From The Last Change)
-----------------------------------------------------------
+## Running A Build (And Rebuilding Prod From The Last Change)
 
 In almost all cases, you should just use `Make` to build. If you don't have Make installed, you can run the shell commands, but it's strongly encouraged that you use it.
 
@@ -21,7 +20,7 @@ In fact, it's the default target.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 Makefile
 ```
-⬜ 3      -include .buildrc
+⬜ 3      -include .env
 ⬜ 4      
 🟩 5      help:
 🟩 6      	@echo "Target              | Explanation"
@@ -62,12 +61,12 @@ To avoid exporting it all the time, the Makefile will read environmental vars fr
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 Makefile
 ```
-⬜ 26     	npm install --legacy-peer-deps && npm run build || true
+⬜ 26     	npm install --legacy-peer-deps && npm run build --production || true
 ⬜ 27     
 🟩 28     rebuild-remote:
 🟩 29     ifndef NETLIFY_REBUILD_WEBHOOK
 🟩 30     	@echo
-🟩 31     	@echo "NETLIFY_REBUILD_WEBHOOK must be set to the correct URL in the enviornment."
+🟩 31     	@echo "NETLIFY_REBUILD_WEBHOOK must be set to the correct URL in the environment."
 🟩 32     	@echo "If you create a .buildrc file in the same directory as the Makefile with it defined, it will be included."
 🟩 33     	@echo
 🟩 34     	@echo "Try this:"
@@ -87,8 +86,7 @@ To avoid exporting it all the time, the Makefile will read environmental vars fr
 
 <br/>
 
-Build Behavior & Tests
-----------------------
+## Build Behavior & Tests
 
 The Docusaurus configuration file dictates how certain kinds of breakage should be treated during the build. Throughout the content process, we use a `<Link />` component to manage links (see [How Do Links Work?](how-do-links-work.ANv7K.sw.md) ). External links are not (yet) validated on build, but internal links are.
 
@@ -114,8 +112,7 @@ We throw `onBrokenLinks`[<sup id="Zl2UoL">↓</sup>](#f-Zl2UoL) because we never
 
 <br/>
 
-Lints & Static Analysis
------------------------
+## Lints & Static Analysis
 
 For right now, we're not using any Markdown lints in the `📄 docs` `📄 src/pages` or `📄 changelog` directories because there are still too many vague corner cases with MDX that can create confusion. Non-devs on the marketing team might need to update or create content, and they shouldn't need to deal with weird behavior from seeing it work on the local dev server to seeing it break in production. MDX can sometimes break if a newline separator is missing, or other circumstances where automatic linting could create infuriating bugs.
 
