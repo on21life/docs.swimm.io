@@ -28,7 +28,7 @@ production:
 rebuild-remote:
 ifndef NETLIFY_REBUILD_WEBHOOK
 	@echo
-	@echo "NETLIFY_REBUILD_WEBHOOK must be set to the correct URL in the enviornment."
+	@echo "NETLIFY_REBUILD_WEBHOOK must be set to the correct URL in the environment."
 	@echo "If you create a .buildrc file in the same directory as the Makefile with it defined, it will be included."
 	@echo
 	@echo "Try this:"
