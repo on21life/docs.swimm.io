@@ -2,11 +2,11 @@
 id: Zo6UG
 name: What Are The Local Site Configuration Files?
 file_version: 1.0.2
-app_version: 0.10.1-2
+app_version: 0.10.1-3
 file_blobs:
   docusaurus.config.js: 6074d3b80dbf69da9d7a70732d10976811c58ba5
   src/components/SwimmUtils.js: 6b4d2d4516c8a2ebcf650e6677ffe847aecceb7b
-  swimm.config.js: 0451ddd2b7da0ded9e20c21a2b27b9950b8aa9e5
+  swimm.config.js: 76785359aa898a628254aeb3758e799870153f4a
 ---
 
 We have three main configuration files that you need to know about:
@@ -96,7 +96,7 @@ The objects in `SiteSettings`[<sup id="28FeRl">↓</sup>](#f-28FeRl) contain wha
 🟩 4          version: GetCurrentSwimmRelease(),
 🟩 5          community: {
 🟩 6              slack: 'https://swimm.io/slack',
-🟩 7              officeHours: 'https://calendly.com/timpost/swimm-s-office-hours-with-tim-post',
+🟩 7              officeHours: 'https://calendly.com/tom-swimm/30-minute-demo',
 🟩 8          },
 🟩 9          emojiShortcuts: {
 🟩 10             default: ':ocean:',
