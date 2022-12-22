@@ -1,0 +1,58 @@
+---
+id: JetBrains troubleshooting
+slug: jetbrains-troubleshooting
+sidebar_position: 3
+---
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+# Troubleshooting 
+
+**Why do I need to register to Swimm?**<br/>
+In order to start using Swimm, you will need a Swimm account with at least one workspace. <br/>
+Your repositories need to be associated with a workspace. <br/>
+It is required for Swimm to be able to store some minimal metadata about your repositories. 
+
+## Troubleshooting and Error messages:
+Errors you may encoutner, after logging in.<br/>
+:::caution Login Error
+**“Swimm repository not detected”**<br/>
+Meaning: The repository doesn’t have any Swimm docs and has never been connected to your Swimm workspace.
+:::
+
+Or <br/>
+:::caution Login Error
+**“Cannot retrieve the workspace or repo information”**<br/>
+Or **“You are not a member of a workspace where [repo name] is connected to.”**<br/>
+Meaning: The repository is not connected to a Swimm workspace or you are not a member of a workspace where this repository is connected to.
+:::
+
+**In case of all the errors listed above, make sure that:**
+1. **Your organization is registered and has a Swimm workspace.**
+
+    If not, create one - it’s free.
+2. **You are a member of that workspace.**
+
+    If not, request from your administrator, to join the workspace.
+3. **The repository you are working on has been added to the workspace.**
+
+    If not, login to the workspace and “add a repo” to your workspace.
+4. **You have editing GitHub permissions to that repository.**
+
+    If not, request your administrator to provide you with such.
+5. **You are logged in to Swimm in the IDE.**
+
+
+## Supported Scenarios
+**Single repo**
+
+- Opening a single repo from VS Code is the most straightforward way.
+
+**Sibling Multi-Repo**
+
+- Opening a folder with multiple same-level repositories. This is also supported by Swimm. Swimm’s welcome panel will detect the active repo and all the information will be relative to it.
+
+**Nested Repositories**
+
+- Nested repositories (such as SubModules) are not a supported pattern. 
+
