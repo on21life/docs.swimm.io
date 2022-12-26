@@ -100,7 +100,7 @@ const FAQIndex = {
                         <li>How to create a common component</li>
                         <li>An overview of a system or a process</li>
                         </ul>
-                        Swimm has several templates to start with, along with our Guided Doc Creation process on how to write effective documentation.
+                        Swimm has several templates to start with to write effective documentation.
                         <br/><br/>
                         <h4>Step 2:</h4>
                         Make sure all team members install Swimm's IDE plugin.  When your documentation appears naturally inside the IDE, it encourages your team to read it in context. What we know is that the key for investing in documentation is making sure people will find it easily when they need it the most.
@@ -194,7 +194,8 @@ const FAQIndex = {
                 title: "How much time do I need to invest in creating content on Swimm before I see value?",
                 content:
                 <p>
-                    Very little. <br/>
+                    Very little time! <br/>
+
                     From our experience, with a few hours of work, you can help your devs save days to weeks in ramp-up time. 
                     You can also easily incorporate content creation into your workflow, by creating documentation from pull requests and commits that encapsulate parts of the code you need to document. 
                 </p>
@@ -203,13 +204,14 @@ const FAQIndex = {
                 title: "What's the difference between Swimm documentation and regular documentation?",
                 content:
                 <p>
-                    Swimm allows you to create <a target="_blank" href="/docs/features">Code coupled documentation</a> by adding live snippets from your code. 
+                    Swimm allows you to create <a target="_blank" href="/docs/features">code coupled documentation</a> by adding live snippets from your code. 
                     Regular documentation systems are not built for software documentation because code changes rapidly and regular documentation solutions need to be manually maintained.
+
                     <br/><strong>With Swimm, it becomes easily manageable thanks to Swimm's Auto-sync algorithm that helps users keep these snippets and your documentation always up to date. </strong>
                     <br/><br/>
-                    Coupling documentation with the code also means it's more <strong>focused</strong>, <strong>easy to find</strong> while you're working - having your documentation available directly in your IDE where you need it.
+                    Coupling documentation with the code also means it's more <strong>focused and</strong> <strong>easy to find</strong> while you're working - having your documentation available directly in your IDE where you need it.
                     Code-coupled documentation also gives you new powerful ways to document your architecture, your classes, and your styling guides (and so on) in ways that weren't possible before. 
-                    <br/><strong>With Swimm's platform, you get far better internal documentation with much less time invested</strong>.
+                    <br/><strong>With Swimm's platform you get far better internal documentation with much less time invested</strong>.
 
                 </p>
             },
@@ -217,16 +219,16 @@ const FAQIndex = {
                 title: "Comments on the code are also coupled with it. Is Swimm like comments?",
                 content:
                 <p>
-                    Comments help understand the specific lines of code they are associated with. Understanding code, and especially complex code scenarios, usually require following a flow of code from different files, and sometimes different repos. Comments do not help with that. 
-                    <br/><br/>Also, if you forget to update a comment, you don't get a notification or warning.
-Swimm doesn't replace comments in code - <a target="_blank" href="https://swimm.io/blog/walkthrough-documentation-where-swimms-main-value-lies/">it augments them</a>. It puts the narrative right where you need to find it, <a target="_blank" href="https://docs.swimm.io/docs/ide-integrations/ide-plugins">in your IDE</a>. You'll see that it's there for your team if they need it when they need it.
+                    Comments help us understand the specific lines of code they are associated with. Understanding code, and especially complex code scenarios, usually require following a flow of code from different files and sometimes different repos. So comments do not help with that. 
+                    <br/><br/>But also, if you forget to update a comment, you don't get a notification or warning to make an update. With Swimm's patented Auto-sync feature, we ensure that your documentation stays synced with the code as the code changes.
+So Swimm doesn't replace comments in code - <a target="_blank" href="https://swimm.io/blog/walkthrough-documentation-where-swimms-main-value-lies/">it augments them</a>. It puts the narrative right where you need to find it, <a target="_blank" href="https://docs.swimm.io/docs/ide-integrations/ide-plugins">in your IDE</a>. You'll see that it's there for your team if they need it when they need it.
                 </p>
             },
             {
                 title: "What are the differences between code comments and Swimm docs?",
                 content:
                 <p>
-                    Swimm is a crossbreed between code comments and high-level documentation. With Swimm, you add code snippets to your docs, so they are available right inside the doc whenever you select a code snippet. When you use one of <a target="_blank" href="https://swimm.io/blog/ide-integrated-documentation-using-swimm/">Swimm’s IDE plugins</a>, links to available documentation appear right within the code.
+                    Swimm is a crossbreed between code comments and high-level documentation. With Swimm, you add code snippets to your docs so they are available right inside the doc whenever you select a code snippet. When you use one of <a target="_blank" href="https://swimm.io/blog/ide-integrated-documentation-using-swimm/">Swimm’s IDE plugins</a>, links to available documentation appear right within the code.
                     <br/><br/>
                     Because documentation is code-coupled, you find your documents in time, they describe flow and patterns using the actual code, documentation coverage is automatically detected and flagged, and there’s no more risk of code comments becoming outdated or accidentally deleted.
                 </p>
@@ -237,10 +239,10 @@ Swimm doesn't replace comments in code - <a target="_blank" href="https://swimm.
                 <p>
                     Clients using Swimm are reporting the following:
                     <ul>
-                    <li>Swimm is helping them spend up to 55% less time onboarding new employees</li>
+                    <li>Swimm is helping them spend up to 55% less time onboarding new employees.</li>
                     <li>Swimm streamlines code documentation, linking the code and making it very convenient.</li>
-                    <li>Swimm has been critical for ensuring internal docs around the ecosystem stay up to date</li>
-                    <li>Swimm helps developers become more open to the culture of documentation</li>
+                    <li>Swimm has been critical for ensuring internal docs around the ecosystem stay up to date.</li>
+                    <li>Swimm helps developers become more open to the culture of documentation.</li>
                     </ul>
                     and more...
                     <br/><br/>
@@ -249,7 +251,7 @@ Swimm doesn't replace comments in code - <a target="_blank" href="https://swimm.
                     Swimm provides an effective and efficient way to reduce (and sometimes completely eliminate) these challenges.
                     For more details here are some articles that address the impact of swimm over R&D teams:
                     <ul>
-                    <li><a target="_blank" href="https://swimm.io/case-studies">Case studies</a> Swimm case studies</li>
+                    <li><a target="_blank" href="https://swimm.io/case-studies">Case studies</a></li>
                     <li><a target="_blank" href="https://swimm.io/blog/meeting-challenges-software-development-teams/">Swimm's whitepaper </a></li>
                     <li><a target="_blank" href="https://swimm.io/blog/how-swimm-uses-swimm/">How Swimm uses Swimm</a></li>
                     </ul>
@@ -276,10 +278,10 @@ Swimm doesn't replace comments in code - <a target="_blank" href="https://swimm.
                     <code>Pseudo code</code> snippets (codeblocks) are fundamentally different from Swimm snippets by their function and purpose.
                     <ul>
                     <li>Codeblocks are used for demonstrating an example or usage of the code. <br/>The example itself doesn't exist in the codebase and its purpose is to explain how things work. Codeblocks are not synced or automatically maintained by Swimm.</li>
-                    <li>Swimm Snippets are actual line-by-line code taken directly from the codebase. Snippets are synced and automatically maintained and updated by Swimm.</li>
+                    <li>Swimm's code snippets are actual line-by-line code taken directly from the codebase. Snippets are synced and automatically maintained and updated by Swimm.</li>
                     </ul>
                     <strong>💡 Pro Tip:</strong>There is a way to have example code that is also synced or maintained. Here's how:
-                    Code examples are often very similar to tests. Traditionally tests are a way to implement a part of the code. You can add a test about a component, a function, or a class.                    By adding a test that represents your example and then adding it as a Swimm snippet, you will benefit from having synced code examples in your docs.
+                    code examples are often very similar to tests. Traditionally tests are a way to implement a part of the code. You can add a test about a component, a function, or a class.                    When you add a test that represents your example and then add it as a Swimm snippet, you'll have synced code examples in your docs.
 
                 </p>
             },
@@ -335,7 +337,7 @@ Swimm doesn't replace comments in code - <a target="_blank" href="https://swimm.
                     <li><strong>The GitHub token is not stored at any time on Swimm's servers</strong>. The token is stored on the client-side browser (local storage) in a manner that is only accessible in the Swimm app. Every time an action is triggered, GitHub sends the unique app installation identifier to Swimm’s server. We use this information to generate a unique token (one-off token). This token is never stored on our servers and is used for the duration of the action only.</li>
                     </ol>
                     <br/>
-                    <h4>SOC2</h4>
+                    <h4>Is Swimm SOC 2 compliant?</h4>
                     <strong>Swimm is SOC 2 compliant</strong>.
                     </p>
             },
@@ -469,11 +471,11 @@ Swimm doesn't replace comments in code - <a target="_blank" href="https://swimm.
                     </p>
             },
             {
-                title: "What Github Account Should I Use?",
+                title: "What GitHub Account Should I Use?",
                 content:
                     <p>
                         Use the account associated with the organization you're working for. In almost all cases,
-                        this is very likely to be your personal Github account, even if you received a workspace
+                        this is very likely to be your personal GitHub account, even if you received a workspace
                         invitation to your work email address.
                     </p>
             },  

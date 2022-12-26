@@ -1,11 +1,11 @@
 ---
-id: Third Party Knowledgebases
+id: Third party knowledgebases
 slug: third-Party-knowledgebases
 sidebar_position: 5
 ---
 import Link from '@docusaurus/Link';
 
-# Third-party Knowledgebases
+# Third-party knowledgebases
 
 Swimm's markdown (`.swm.md`) is easily shared to your internal wikis or knowledgebases. 
 
@@ -14,9 +14,9 @@ If the back-end supports markdown, it can be as simple as pasting Swimm’s mark
 ## Working with Swimm files
 You can create two types of assets in Swimm: Repo Docs and Cloud Docs
 
-**Repo Docs** are code-coupled documents that are saved in the repository in a markdown format. All the content that you and your team create under Repo Docs is saved under the ./swm folder in the root folder.
+**Repo docs** are code-coupled documents that are saved in the repository in a markdown format. All the content that you and your team create under Repo Docs is saved under the ./swm folder in the root folder.
 
-**Cloud Docs** are not code coupled and they are saved in Swimm database. To export Cloud Docs please contact support@swimm.io 
+**Cloud docs** are not code coupled and they are saved in Swimm database. To export Cloud Docs please contact support@swimm.io 
 
 ## Things to keep in mind with all integrations
 
@@ -50,18 +50,18 @@ template for Docusaurus. <Link href="https://github.com/swimmio/docusaurus-templ
 follow the instructions in the README. You'll have a site complete with an offline search that you can deploy to
 any host that supports node apps.
 
-### Stack Overflow For Teams & Stack Overflow Enterprise
+### Stack Overflow for teams & Stack Overflow Enterprise
 
 Export the `.swm.md` to <Link href="http://commonmark.org/">Commonmark</Link> with Pandoc, and you can use it 
 on both Teams & Enterprise.  Automation will be feasible if the corresponding APIs allow read/write access. Currently, both are read-only. 
 
-### Jira Wiki (All)
+### Jira wiki (All)
 
 Cloud and on-premises documentation centers using <Link href="https://jira.atlassian.com/secure/WikiRendererHelpAction.jspa?section=all">Jira Wiki Formatting</Link>
 should use Pandoc to convert from `.swm.md` to Jira Wiki. Then check with your IT / DevOps /
 SRE team to figure out what your automation options might look like. 
 
-### MediaWiki / Generic Wiki
+### MediaWiki / Generic wiki
 
 Use Pandoc to convert to the closest markup flavor (MediaWiki is generally good for most of them),
 and then paste/update the content. This can be automated in many ways; while MediaWiki has a <Link href="https://www.mediawiki.org/wiki/API:REST_API">very easy RESTful API</Link>.

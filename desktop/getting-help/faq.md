@@ -2,7 +2,7 @@
 slug: /getting-help/faq/
 sidebar_position: 3
 ---
-# General Troubleshooting
+# General troubleshooting
 
 Below are some common troubleshooting questions that we receive, with answers. These problems stem from things Swimm can't control (such as the way CI containers might be configured, or something as simple as a team member forgetting to push). If you run into trouble and don't see your question here, or need any other help, [contact us](../support/) and we'll help you figure it out.
 

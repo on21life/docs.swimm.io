@@ -2,11 +2,11 @@
 id: Zo6UG
 name: What Are The Local Site Configuration Files?
 file_version: 1.0.2
-app_version: 0.9.1-0
+app_version: 0.10.1-3
 file_blobs:
-  docusaurus.config.js: 369e547bec3a6ee7752e78db291fb7bfaf56313f
+  docusaurus.config.js: 6074d3b80dbf69da9d7a70732d10976811c58ba5
   src/components/SwimmUtils.js: 6b4d2d4516c8a2ebcf650e6677ffe847aecceb7b
-  swimm.config.js: 0451ddd2b7da0ded9e20c21a2b27b9950b8aa9e5
+  swimm.config.js: 76785359aa898a628254aeb3758e799870153f4a
 ---
 
 We have three main configuration files that you need to know about:
@@ -16,11 +16,9 @@ We have three main configuration files that you need to know about:
 2.  `📄 swimm.config.js` which holds Swimm-related config items for things that aren't components of Docusaurus.
     
 3.  `📄 releases.config.json` which holds metadata about all Swimm releases (or, it soon will)
+    
 
-<br/>
-
-The Docusaurus Config
----------------------
+## The Docusaurus Config
 
 The Docusaurus config is fairly well commented. The only other thing to be aware if is that it's guarded - you can't add values it's not expecting.
 
@@ -45,23 +43,26 @@ You can also define scripts that will be put in the head of every page.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 docusaurus.config.js
 ```javascript
-⬜ 46           }),
-⬜ 47         ],
-⬜ 48       ],
-🟩 49       // see https://docusaurus.io/docs/api/docusaurus-config#scripts
-🟩 50       scripts: 
-🟩 51       [
-🟩 52     
-🟩 53       ],
-⬜ 54       plugins: [
-⬜ 55         [
-⬜ 56           require.resolve("@easyops-cn/docusaurus-search-local"),
+⬜ 50           }),
+⬜ 51         ],
+⬜ 52       ],
+🟩 53       // see https://docusaurus.io/docs/api/docusaurus-config#scripts
+🟩 54       scripts: 
+🟩 55       [
+🟩 56         {
+🟩 57           src:
+🟩 58             '/js/tags.js',
+🟩 59             async: false,
+🟩 60         }
+🟩 61       ],
+⬜ 62       plugins: [
+⬜ 63         [
+⬜ 64           require.resolve("@easyops-cn/docusaurus-search-local"),
 ```
 
 <br/>
 
-The Swimm Config
-----------------
+## The Swimm Config
 
 This config can store whatever needs to be kept track of. Use the functions in `📄 src/components/SwimmUtils.js` to get to it:
 
@@ -95,7 +96,7 @@ The objects in `SiteSettings`[<sup id="28FeRl">↓</sup>](#f-28FeRl) contain wha
 🟩 4          version: GetCurrentSwimmRelease(),
 🟩 5          community: {
 🟩 6              slack: 'https://swimm.io/slack',
-🟩 7              officeHours: 'https://calendly.com/timpost/swimm-s-office-hours-with-tim-post',
+🟩 7              officeHours: 'https://calendly.com/tom-swimm/30-minute-demo',
 🟩 8          },
 🟩 9          emojiShortcuts: {
 🟩 10             default: ':ocean:',

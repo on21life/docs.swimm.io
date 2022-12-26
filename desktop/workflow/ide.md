@@ -30,7 +30,7 @@ Clicking on the 'hint' link will do one of two things, depending on how you have
 
 ## IntelliJ
 
-We have a plugin that works across all IntelliJ platforms (IDEA, PHPStorm, others) which [can be downloaded from their site](https://plugins.jetbrains.com/plugin/17201-swimm) and is also available from within the IDE interface to the marketplace. 
+We have a plugin that works across all IntelliJ platforms (IDEA, PHPStorm, others) which [can be downloaded from their site](https://plugins.jetbrains.com/plugin/20716-swimm) and is also available from within the IDE interface to the marketplace. 
 
 Installed, it provides the same experience as the VSCode plugin, with the same contextual hints and on-click behavior:
 

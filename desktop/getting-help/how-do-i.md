@@ -3,7 +3,7 @@ slug: /getting-help/how-do-i/
 sidebar_position: 1
 ---
 
-# How do I ... (Common Questions)
+# How do I ... (Common questions)
 
 We have many questions that pertain to general technical concepts in Swimm asked and answered [on our website](https://swimm.io/blog/get-started-with-swimm-most-frequently-asked/). If you have not yet seen them, please take a look - they answer questions you might have about setting up workflows, and how Swimm thinks and works at a high level. 
 

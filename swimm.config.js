@@ -4,7 +4,7 @@ const SiteSettings = {
     version: GetCurrentSwimmRelease(),
     community: {
         slack: 'https://swimm.io/slack',
-        officeHours: 'https://calendly.com/timpost/swimm-s-office-hours-with-tim-post',
+        officeHours: 'https://calendly.com/tom-swimm/30-minute-demo',
     },
     emojiShortcuts: {
         default: ':ocean:',
