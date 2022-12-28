@@ -1,9 +1,22 @@
-{ "0.9.9.12": {
+{ "0.11.0": {
+  "major": 0,
+  "minor": 11,
+  "patch": 0,
+  "patchlevel": null,
+  "name": "0.11.0",
+  "date": 1672243906,
+  "security": null,
+  "blog": null,
+  "tweet": null,
+  "youtube": null,
+  "linkedin": null
+},
+ "0.10.2": {
   "major": 0,
   "minor": 10,
-  "patch": 1,
+  "patch": 2,
   "patchlevel": null,
-  "name": "0.9.9.12",
+  "name": "0.",
   "date": 1671445036,
   "security": null,
   "blog": null,
@@ -11,12 +24,12 @@
   "youtube": null,
   "linkedin": null
 },
- "0.9.9.11": {
+ "0.10.1": {
   "major": 0,
   "minor": 10,
   "patch": 1,
   "patchlevel": null,
-  "name": "0.9.9.11",
+  "name": "0.10.1",
   "date": 1670246477,
   "security": null,
   "blog": null,
@@ -24,12 +37,12 @@
   "youtube": null,
   "linkedin": null
 },
-"0.9.9.10": {
+"0.10.0": {
   "major": 0,
   "minor": 10,
   "patch": 0,
   "patchlevel": null,
-  "name": "0.9.9.10",
+  "name": "0.10.0",
   "date": 1669028484,
   "security": null,
   "blog": null,
