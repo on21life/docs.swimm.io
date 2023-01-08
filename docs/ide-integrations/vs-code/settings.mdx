@@ -3,8 +3,9 @@ id: Install VS Code
 slug: vs-code-setup
 sidebar_position: 1
 ---
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import Link from '@docusaurus/Link';
+
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import Link from "@docusaurus/Link";
 
 # Setting up
 
@@ -14,43 +15,22 @@ Get your Visual Studio Code extension <Link href="https://marketplace.visualstud
 
 Once installed, you will see Swimm's icon in your IDE in the “Activity Bar” on the left.
 
-<br/>
+<br />
 
 Click it, and **login** if you already have an account. If not, **register** - it's completely free and takes just a couple of minutes.
-### 📄 ide/webviews/src/components/WelcomePanel.vue
-```vue
-   <div class="button-container">
-     <Action class="button-login register-button" @click="$emit('register')"
-       ><SwText class="register" variant="body-XS">Register for Free</SwText></Action
-     >
-     <span class="login-span">or</span>
-     <Action type="a" class="button-login clickable" :disabled="false" @click="$emit('login')">Login</Action>
-   </div>
-```
 
-<br/>
+<br />
 
-### 📄 ide/webviews/src/components/WelcomePanel.vue
-```vue
- const paragraphs = [
-   'Welcome to Swimm',
-   'Swimm integrates documentation into the development workflow',
-   'Create and consume docs with live snippets directly in your IDE',
- ];
-```
+![](../../../static/img/VSCODE1.png)
 
-<div align="center"><img src="../../../static/img/VSCODE1.png" style="width:'50%'"/></div>
-
-<br/>
+<br />
 
 ## Register
 
 When you register, you will go through an onboarding wizard that will require you to do two things:
 
 1.  Create a workspace
-    
 2.  Connect a repository
-    
 
 After that, you will need to log in👇
 

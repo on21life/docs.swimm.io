@@ -3,8 +3,9 @@ id: Swimm's IDE Plugins (Visual Studio Code)
 slug: ide-plugins-vscode
 sidebar_position: 3
 ---
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import Link from '@docusaurus/Link';
+
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import Link from "@docusaurus/Link";
 
 # Getting started
 
@@ -12,44 +13,32 @@ import Link from '@docusaurus/Link';
 
 After logging in, you will see Swimm’s panel:
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/sidebar_empty.png" style="width:'50%'"/></div>
+![](../../../static/img/sidebar_empty.png)
 
-<br/>
+<br />
 
 It contains 3 sections:
 
 1.  **WELCOME** - General Swimm actions are here.
-    
 2.  **REPO DOCS** - All Swimm docs grouped by repository.
-    
 3.  **CURRENT FILE** - Swimm docs related to an opened file.
-
 
 ### No docs yet?
 
 If you don’t have any Swimm docs, click “Create A New Doc.”
-### 📄 ide/webviews/src/components/LoggedInPanel.vue
-```vue
-     {
-       text: 'Create A New Doc',
-       href: newDocRoute.value,
-       iconName: 'doc-file-change',
-       shouldDisable: isMultiRepoEmptyState.value || isNoWorkspaceState.value,
-     },
-```
 
 Note that currently, most actions will navigate you to the Swimm Web Platform.<br/>
 _Stay tuned: soon, we will be releasing more actions that you can do directly in VS Code._<br/>
 
 As you can see below, Swimm’s VS Code extension and Web Platform complement one another.
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/VSCODE3.png" style="width:'50%'"/></div>
+![](../../../static/img/VSCODE3.png)
 
-<br/>
+<br />
 
 ### Create docs with Swimm’s code-coupled editor
 
@@ -60,11 +49,11 @@ That’s all! You’re now ready to create your own code-coupled documentation.
 
 Learn more about <Link to="https://docs.swimm.io/getting-started-guide/creating-a-doc/">how to get started creating your first doc.</Link>
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/VSCODE4.png" style="width:'50%'"/></div>
+![](../../../static/img/VSCODE4.png)
 
-<br/>
+<br />
 
 ### Committing your first doc
 
@@ -72,11 +61,11 @@ To see docs in the IDE, documentation needs to be committed to a repository. You
 
 Once that branch is merged to your main branch, it will become part of your main documentation.
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/VSCODE5.png" style="width:'50%'"/></div>
+![](../../../static/img/VSCODE5.png)
 
-<br/>
+<br />
 
 ### Finding & reading docs in VS Code
 
@@ -87,36 +76,38 @@ We have designed finding docs in your IDE to be streamlined so that you can togg
 There are several ways to access docs in your IDE.
 
 ### 1\. Browse and read any doc by clicking docs from the “Repo Docs” panel
+
 ### 📄 ide/extensions/vscode/package.json
+
 ```json
            "name": "Repo Docs",
 ```
 
-:::caution<br/>
+:::caution
 Make sure you pull the latest version of the branch you are on.<br/>
 :::
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/VSCODE6.png" style="width:'50%'"/></div>
+![](../../../static/img/VSCODE6.png)
 
-<br/>
+<br />
 
 Clicking on any doc from the list will open it in the IDE.
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/VSCODE7.png" style="width:'50%'"/></div>
+![](../../../static/img/VSCODE7.png)
 
-<br/>
+<br />
 
 ### 2\. Read existing docs in your codebase
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/VSCODE8.png" style="width:'50%'"/></div>
+![](../../../static/img/VSCODE8.png)
 
-<br/>
+<br />
 
 Just above the code, you’ll see a comment with a brief description of a code snippet that is in the document.
 
@@ -126,10 +117,10 @@ To open and review the document, click on either the comment or the wave icon.
 
 Inside docs, for any snippet, you can click on the snippet path. That will open the file in your IDE and show the highlighted section in the code.
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/VSCODE9.png" style="width:'50%'"/></div>
+![](../../../static/img/VSCODE9.png)
 
-<br/>
+<br />
 
 This document is automatically kept up-to-date using [Swimm](https://swimm.io).

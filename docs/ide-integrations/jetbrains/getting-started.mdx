@@ -3,8 +3,9 @@ id: Swimm's IDE Plugins (Jetbrains)
 slug: jetbrains-getting-started
 sidebar_position: 3
 ---
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import Link from '@docusaurus/Link';
+
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import Link from "@docusaurus/Link";
 
 # Getting started
 
@@ -12,14 +13,12 @@ import Link from '@docusaurus/Link';
 
 After logging in, you will see Swimm’s panel:
 
-<div align="center"><img src="../../../static/img/intellij_sidebar_empty.png" style="width:'50%'"/></div>
+![](../../../static/img/intellij_sidebar_empty.png)
 
 It contains 2 sections:
 
 1.  **WELCOME** - General Swimm actions are here.
-    
 2.  **REPO DOCS** - All Swimm docs grouped by repository.
-    
 
 ### No docs yet?
 
@@ -30,11 +29,11 @@ _Stay tuned: soon, we will be releasing more actions that you can do directly in
 
 As you can see below, Swimm’s JetBrains plugin and Web Platform complement one another.
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/VSCODE3.png" style="width:'50%'"/></div>
+![](../../../static/img/VSCODE3.png)
 
-<br/>
+<br />
 
 ### Create docs with Swimm’s code-coupled editor
 
@@ -46,11 +45,11 @@ That’s all! You’re now ready to create your own code-coupled documentation.
 
 Learn more about <Link to="https://docs.swimm.io/getting-started-guide/creating-a-doc/">how to get started creating your first doc.</Link>
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/VSCODE4.png" style="width:'50%'"/></div>
+![](../../../static/img/VSCODE4.png)
 
-<br/>
+<br />
 
 ### Committing your first doc
 
@@ -58,20 +57,22 @@ To see docs in the IDE, documentation needs to be committed to a repository. You
 
 Once that branch is merged to your main branch, it will become part of your main documentation.
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/VSCODE5.png" style="width:'50%'"/></div>
+![](../../../static/img/VSCODE5.png)
 
-<br/>
+<br />
 
 ### Finding & reading docs in JetBrains IDE
 
 :::note<br/>
 Docs are part of the repositories. Same as with code, you are responsible for pulling the latest version of your repository. Make sure you are locally on the same branch as your documents. To verify, you can open the local `.swm` folder and find your documents there (if not, you should probably switch to the right branch and/or pull the latest changes).<br/>
 :::
+
 ### 📄 packages/shared/src/config.ts
+
 ```typescript
- export const SWM_FOLDER_IN_REPO = '.swm';
+export const SWM_FOLDER_IN_REPO = ".swm";
 ```
 
 We have designed finding docs in your IDE to be streamlined so that you can toggle between your docs and the code seamlessly.
@@ -80,31 +81,31 @@ There are several ways to access docs in your IDE.
 
 ### 1\. Browse and read any doc by clicking docs from the “Repo Docs” panel
 
-:::caution<br/>
+:::caution
 Make sure you pull the latest version of the branch you are on.<br/>
 :::
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/intellij_sidebar_description.png" style="width:'50%'"/></div>
+![](../../../static/img/intellij_sidebar_description.png)
 
-<br/>
+<br />
 
 Clicking on any doc from the list will open it in the IDE.
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/intellij_swimm_doc_anatomy.png" style="width:'50%'"/></div>
+![](../../../static/img/intellij_swimm_doc_anatomy.png)
 
-<br/>
+<br />
 
 ### 2\. Read existing docs in your codebase
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/intellij_wave_1.png" style="width:'50%'"/></div>
+![](../../../static/img/intellij_wave_1.png)
 
-<br/>
+<br />
 
 Right next to the code, you’ll see the Swimm wave icon on the left gutter.
 
@@ -114,10 +115,10 @@ To open and review the document, click on the wave icon.
 
 Inside docs, for any snippet, you can click on the snippet path. That will open the file in your IDE and show the highlighted section in the code.
 
-<br/>
+<br />
 
-<div align="center"><img src="../../../static/img/intellij_from_doc_to_code.png" style="width:'50%'"/></div>
+![](../../../static/img/intellij_from_doc_to_code.png)
 
-<br/>
+<br />
 
 This document is automatically kept up-to-date using [Swimm](https://swimm.io).
