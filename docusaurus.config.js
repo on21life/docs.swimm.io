@@ -161,7 +161,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Quickstart',
-                to: '/docs/getting-started-guide',
+                to: '/getting-started-guide',
               },
               {
                 label: 'Use Cases',
