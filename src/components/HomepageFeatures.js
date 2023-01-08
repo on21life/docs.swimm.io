@@ -28,18 +28,6 @@ const FeatureList = [
     link_href: '/ide-integrations/ide-plugins'
   },
   {
-    title: 'Knowledgebase Integrations',
-    Svg: require('../../static/img/03_knowledgebaseIntegrations.svg').default,
-    description: (
-      <>
-        Learn how to bring Swimm documentation to your internal knowledge platforms,
-        like Confluence and Notion.
-      </>
-    ),
-    link_title: 'Learn More',
-    link_href: '/ide-integrations/third-Party-knowledgebases'
-  },
-  {
     title: 'Documentation Strategies',
     Svg: require('../../static/img/04_docuStrategies.svg').default,
     description: (
