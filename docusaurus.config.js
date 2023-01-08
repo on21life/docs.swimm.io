@@ -164,8 +164,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to: '/getting-started-guide',
               },
               {
-                label: 'Use Cases',
-                href: 'https://swimm.io/use-cases',
+                label: 'Case Studies',
+                href: 'https://swimm.io/case-studies',
               },
               {
                 label: 'Pricing',
