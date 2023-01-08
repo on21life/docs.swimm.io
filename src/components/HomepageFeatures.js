@@ -13,7 +13,7 @@ const FeatureList = [
       </>
     ),
     link_title: 'Find Out How',
-    link_href: '/docs/new-to-swimm/continuous-documentation'
+    link_href: '/new-to-swimm/continuous-documentation'
   },
   {
     title: 'Swimm\'s IDE Plugins',
@@ -25,7 +25,7 @@ const FeatureList = [
       </>
     ),
     link_title: 'See What\'s Supported',
-    link_href: '/docs/ide-integrations/ide-plugins'
+    link_href: '/ide-integrations/ide-plugins'
   },
   {
     title: 'Knowledgebase Integrations',
@@ -37,7 +37,7 @@ const FeatureList = [
       </>
     ),
     link_title: 'Learn More',
-    link_href: '/docs/ide-integrations/third-Party-knowledgebases'
+    link_href: '/ide-integrations/third-Party-knowledgebases'
   },
   {
     title: 'Documentation Strategies',
