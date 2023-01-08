@@ -3,47 +3,34 @@ id: Signup & authorization
 slug: permissions
 sidebar_position: 0
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
 
 # What permissions are required?
 
-Swimm require three types of permissions: organizational, read, and write permissions.
-<br/>
+Swimm require three types of permissions: organizational, read, and write permissions.<br/>
 
-:::tip We never store your code on our servers
-
-We have a special [privacy and security FAQ](https://docs.swimm.io/security) that answers many questions about
-how things are stored and transmitted. Your code and snippets aren't stored 
-on our servers; Swimm just needs permission to read files, analyze changes,
-and write the content you create to the `.swm/` directory. 
-
+:::tip We never store your code on our servers<br/>
+We have a special [privacy and security FAQ](https://docs.swimm.io/security) that answers many questions about how things are stored and transmitted. Your code and snippets aren't stored on our servers; Swimm just needs permission to read files, analyze changes, and write the content you create to the `.swm/` directory.<br/>
 :::
 
 ## Organizational permissions
 
-Since most repository hosting 
-services are tied to your *personal* log-in, you'll need to tell Swimm specifically
-which organization owns the repos you'll be working on. This will allow you 
-to grant Swimm individual repo permissions within that
-organization.
+Since most repository hosting services are tied to your _personal_ log-in, you'll need to tell Swimm specifically which organization owns the repos you'll be working on. This will allow you to grant Swimm individual repo permissions within that organization.
 
 ## Read permissions
 
 In order to be able to select code snippets within the **Snippet Studio**, Swimm will need to be able to read the repository.
 
-Swimm also needs access to the entire commit history in order to be able to understand
-and account for code changes. This is what enables **Swimm's Auto-sync algorithm** to automatically process 
-changes to your code, automatically syncing **Smart Paths & Smart Tokens**. Your code remains in your repo, and Swimm simply stores metadata about snippets, paths
-and tokens so that it can remember what it's supposed to keep track of.
+
+Swimm also needs access to the entire commit history in order to be able to understand and account for code changes. This is what enables **Swimm's Auto-sync algorithm** to automatically process changes to your code, automatically syncing **Smart Paths & Smart Tokens**. Your code remains in your repo, and Swimm simply stores metadata about snippets, paths and tokens so that it can remember what it's supposed to keep track of.
 
 ## Write permissions
 
-Swimm uses a special directory named `.swm/` in your
-repo to store your documentation along with a unique identifier that 
-correlates your documentation to your repository.
+Swimm uses a special directory named `.swm/` in your repo to store your documentation along with a unique identifier that correlates your documentation to your repository.
 
-Swimm needs to be able to write when you create or update a document, and when it
-detects changes that can be automatically synchronized.
+Swimm needs to be able to write when you create or update a document, and when it detects changes that can be automatically synchronized.
 
-Swimm will also dynamically create branches and open Pull Requests as needed when
-it encounters protected branches. 
+Upon user's request, Swimm will also dynamically create branches and open Pull Requests as needed when it encounters protected branches.
+
+This document is automatically kept up-to-date using [Swimm](https://swimm.io).
