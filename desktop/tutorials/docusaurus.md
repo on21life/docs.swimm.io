@@ -1,6 +1,6 @@
 ---
 slug: /tutorials/docusaurus/
-sidebar_position: 3
+sidebar_position: 5
 ---
 # Exporting Swimm Documentation To Docusaurus
 

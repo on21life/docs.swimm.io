@@ -105,52 +105,27 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           srcDark: 'img/logo-white.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'Welcome', 
-            label: 'Documentation', 
-            position: 'left'
-          },
-          {
-            to: '/faq',
-            label: 'FAQ',
-            position: 'left',
-          },
-          {
-            to: '/security',
-            label: 'Privacy & Security',
-            position: 'left',
-          },
+          //{type: 'doc',docId: 'Welcome', label: 'Documentation', position: 'left',},
+          //{to: '/faq',label: 'FAQ',position: 'left',},
+          //{to: '/security',label: 'Privacy & Security',position: 'left',}
+          //{to: '/support',label: 'Support', position: 'right'},
+          //{to: '/community',label: 'Community',position: 'right',},
           {
             to: '/changelog', 
             label: 'Changelog', 
-            position: 'left'
-          },
-          {
-            to: '/support',
-            label: 'Support', 
-            position: 'left'
-          },
-          {
-            to: '/community',
-            label: 'Community',
-            position: 'left',
-          },
-          {
-            href: 'https://app.swimm.io',
-            label: 'Log In',
-            position: 'right',
-          },
-          {
-            href: 'https://swimm.io/blog/',
-            label: 'Blog',
-            position: 'right',
+            position: 'right'
           },
           {
             href: 'https://github.com/swimmio/docs.swimm.io',
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://app.swimm.io',
+            label: 'Log In',
+            position: 'right',
+          },
+          //{href: 'https://swimm.io/blog/',label: 'Blog',position: 'right',},
         ],
       },
       footer: {
@@ -247,7 +222,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         ],
         logo: {
           alt: 'Swimm Logo',
-          src: 'img/logo.svg',
+          src: 'img/swimm_logo_white.svg',
           href: 'https://swimm.io',
         },
         copyright: `

@@ -6,8 +6,8 @@ html[data-theme='light'] .releaseBlogLink {
     justify-content: center;
     width: 100%;
     margin-bottom: 1rem;
-    border: 1px solid steelblue;
-    background-color: lavender;
+    border: 1px solid #4154FF;
+    background-color: #E4E7FF;
     border-radius: .25rem;
 }
 

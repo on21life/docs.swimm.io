@@ -55,7 +55,7 @@ SwimmVersion.defaultProps = {
 
 /**
  * Wraps the Docusaurus <Link> component to produce commonly-used links, 
- * or whatever you pass to it. See use in src/pages/community.mdx for examples, 
+ * or whatever you pass to it. See use in src/community.mdx for examples, 
  * or in the changelog entries.
  * 
  * Example:
