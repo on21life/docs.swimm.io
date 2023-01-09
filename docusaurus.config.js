@@ -74,6 +74,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         // When applying `zh` in language, please install `nodejieba` in your project.
       },
     ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        createRedirects(existingPath) {
+          if (existingPath.startswith('/')) {
+            return [
+              existingPath = '/docs' + existingPath
+            ];
+          }
+          return undefined; // Return a falsy value: no redirect created
+        },
+      },
+    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
