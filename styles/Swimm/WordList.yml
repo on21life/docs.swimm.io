@@ -3,8 +3,14 @@ message: "Use '%s' instead of '%s'."
 level: error
 ignorecase: false
 swap:
-  app: App
+  GitHub app: GitHub App
   open-source: open source
   developer team: dev team
-  developer teams: dev teams
   (?:auto sync|autosync): auto-sync
+  Pull Request: pull request
+  up-to-date: up to date
+  smart token: Smart Token
+  markdown: Markdown
+  Swimm Editor: Swimm editor
+  Swimm doc: Swimm Doc
+  (?:Docs-as-code|docs-as-code): Docs as code|docs as code
