@@ -4,86 +4,80 @@ slug: /getting-started-guide
 sidebar_position: 0
 ---
 
+import useBaseUrl from "@docusaurus/useBaseUrl";
 import Link from "@docusaurus/Link";
 
-To get started with Swimm, we suggest running through this Quick Start Guide we've created.
+This doc will walk you through the process of creating your first Swimm doc.
 
-Bring documentation to your team to make knowledge sharing faster, easier, and coupled to code.
+## Step 1: Pick a way to start creating a doc
 
-## Add a repository
+<br />
 
-Once your workspace is set up, connect your GitHub repository.
+![](../../static/img/create_first_doc_n_1.png)
 
-**Step 1: Click "Connect a Repo" from the sidebar.**
+**Blank Doc** - Just as it sounds, this is a blank doc page. Choose this option if you are clear about what you want to write.
 
-![Sign into GitHub](../../static/img/QSadd-repo-tiny.png)
+**Playlist** - An ordered sequence of documents and other resources.
 
-**Step 2: Connect your repository. Select from either "All repositories" or "Public repositories only" and then click "Allow GitHub Access."**
+**Pull Request** - We pull all the code parts from any PR as a scaffold for creating your doc.
 
-![Sign into GitHub](../../static/img/QSadd-repo-allow-gh.png)
+## Step 2: Use Swimm’s code-coupled editor to edit and add content
 
-**Step 3: Sign into GitHub.**
+Swimm’s slash editor commands are a great way to quickly create and edit content in your documents.
 
-![Sign into GitHub](../../static/img/QSadd-repo-signin.png)
+To use these commands, type `/` at any line and you will see the commands menu.
 
-**Step 4: Select your repository.**
+**Swimm commands menu:**
 
-![Sign into GitHub](../../static/img/QSadd-repo-select.png)
+<br />
 
-## Create your first doc
+![](../../static/img/create_first_doc_n_2.png)
 
-**If you're asking yourself, "Where do I start?" here are a few quick tips.**
+To pick a command, start typing its name followed by “Enter” or just click on it.
 
-On the documentation front, starting small is absolutely fine!
+**Important Swimm commands:**
 
-:arrow_right: Select a **Code Snippet** and write notes to walk another developer through the code
+- `Path`\- Add a path of a directory or a file in your document. Swimm will track it in case it is renamed, moved, or deleted.
+- `Doc` - Add a link to an existing Swimm doc. Swimm will track it in case it is getting out of date and notify.
+- `Playlist` - Add a link to an existing Playlist. Swimm will track it and notify you if it’s out of date.
+- `Code` `Snippet` - Add a live code to your document with code snippets.
+- `Diagram`\- Add a code-coupled diagram.
 
-:arrow_right: Review Draft Documentation from your **Pull Requests** that Swimm creates automatically for you
+## Step 3: Add your first code snippet
 
-:arrow_right: Use one of **Swimm's Templates** to help you get a documentation jump start
+Type `/Code` and select to add a code snippet. Our Snippet Studio will show up.
 
-![Sign into GitHub](../../static/img/QScreate-1st-doc-template.png)
+<br />
 
-**To Add a Swimm snippet**
+Snippet Studio provides you with an easy way to locate a file and select a certain section from it. Once you have selected the code section, click “Add & Exit” (or press “Enter”).
 
-:white_check_mark: Click on / and choose "snippet" from the dropdown
+<br />
 
-:white_check_mark: Highlight the code using your mouse
+This will add the code snippet to your document.
 
-:white_check_mark: Click enter to add the code snippet
+Above the snippet, you will see an area to describe and write about the snippet. This part does not need to be long. Best to just describe what the snippet does.
 
-:white_check_mark: Click Esc to go back to the editor
+## Step 4: Add Smart Tokens
 
-![Sign into GitHub](../../static/img/QScreate-first-doc-slash-command.png)
+Smart Tokens help you keep your documentation up to date by allowing you to reference parts of your code even outside of snippets in a way that automatically updates when the code changes.
 
-**To save and committ:**
+The most common use for Smart Tokens is referencing variable, method, or function names within the document.
 
-:white_check_mark: Click on the "Create Pull Request" button in the top right corner
+Read more about <Link to="https://docs.swimm.io/Features/editor-commands/"> Smart Tokens here.</Link>
 
-:white_check_mark: Create a new branch to start a Pull Request or push to an existing branch
+<br />
+
+![](../../static/img/Create_First_Doc6.gif)
+
+<br />
+
+<br />
+
+## Step 5: Save and commit
+
+- Click on the “Commit 1 Change” button in the top right corner.
+- Create a new branch to start a PR or push to an existing branch.
 
 All docs will be saved under the .swm folder once the docs are committed to the repo.
 
-## Integrate your IDE
-
-:white_check_mark: Install and enable the Swimm plugin for VS Code or IntelliJ
-
-![Sign into GitHub](../../static/img/QSIDE1.png)
-
-:white_check_mark: If you are using VS Code, once you click on the Swimm icon, the IDE will open a new tab containing your Swimm Doc
-
-![Sign into GitHub](../../static/img/QSIDE2.png)
-
-:white_check_mark: If you are using IntelliJ, click on the Swimm buoy, and the IDE will open a new tab containing your Swimm Doc
-
-![Sign into GitHub](../../static/img/QSIDE3.png)
-
-## Installing the GitHub App
-
-Swimm's GitHub App will verify that all your documents are updated on every pull request
-
-:white_check_mark: Click on **Integrations** in the top right corner
-
-:white_check_mark: Click on **Install GitHub App**
-
-![Sign into GitHub](../../static/img/QSgh-app.png)
+This document is automatically kept up-to-date using [Swimm](https://swimm.io).

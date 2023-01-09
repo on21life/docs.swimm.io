@@ -3,48 +3,56 @@ id: VS Code troubleshooting
 slug: troubleshooting
 sidebar_position: 3
 ---
-import Link from '@docusaurus/Link';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Troubleshooting 
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import Link from "@docusaurus/Link";
 
-**Why do I need to register for Swimm?**<br/>
-In order to start using Swimm, you will need a Swimm account with at least one workspace. Note that your repositories need to be associated with a workspace, and Swimm stores minimal metadata about your repos. 
+# Troubleshooting
 
-## Troubleshooting and error messages:
+**Why do I need to register to Swimm?**<br/>
+In order to start using Swimm, you will need a Swimm account with at least one workspace. Note that your repositories need to be associated with a workspace, and Swimm stores minimal metadata about your repositories.
+
+## Troubleshooting and Error messages:
+
 Errors you may encoutner, after logging in.<br/>
-:::caution Login Error
-**“Swimm repository not detected”**<br/>
-Meaning: The repository doesn’t have any Swimm docs and has never been connected to your Swimm workspace.
+
+:::caution
+Login Error **“Swimm repository not detected”**<br/>
+Meaning: The repository doesn’t have any Swimm docs and has never been connected to your Swimm workspace.<br/>
 :::
 
-Or <br/>
-:::caution Login error
-**“Cannot retrieve the workspace or repo information”**<br/>
-Or **“You are not a member of a workspace where [repo name] is connected to.”**<br/>
-Meaning: The repository is not connected to a Swimm workspace or you are not a member of a workspace where this repository is connected to.
+Or<br/>
+:::caution
+Login Error **“Cannot retrieve the workspace or repo information”**<br/>
+Or **“You are not a member of a workspace where \[repo name\] is connected to.”**<br/>
+Meaning: The repository is not connected to a Swimm workspace or you are not a member of a workspace where this repository is connected to.<br/>
 :::
 
 **In case of all the errors listed above, make sure that:**
-1. **Your organization is registered and has a Swimm workspace.**
+
+1.  **Your organization is registered and has a Swimm workspace.**
 
     If not, create one - it’s free.
-2. **You are a member of that workspace.**
 
-    If not, request from your administrator, to join the workspace.
-3. **The repository you are working on has been added to the workspace.**
+2.  **You are a member of that workspace.**
+
+    If not, request from your administrator to join the workspace.
+
+3.  **The repository you are working on has been added to the workspace.**
 
     If not, login to the workspace and “add a repo” to your workspace.
-4. **You have editing GitHub permissions to that repository.**
+
+4.  **You have editing GitHub permissions to that repository.**
 
     If not, request your administrator to provide you with such.
-5. **You are logged in to Swimm in the IDE.**
 
+5.  **You are logged in to Swimm in the IDE.**
 
 ## Supported scenarios
+
 **Single repo**
 
-- Opening a single repo from VS Code is the most straightforward way.
+- Opening a single repo from your IDE is the most straightforward way.
 
 **Sibling multi-repo**
 
@@ -52,5 +60,6 @@ Meaning: The repository is not connected to a Swimm workspace or you are not a m
 
 **Nested repositories**
 
-- Nested repositories (such as SubModules) are not a supported pattern. 
+- Nested repositories (such as Git submodules) are not a supported pattern.
 
+This document is automatically kept up-to-date using [Swimm](https://swimm.io).

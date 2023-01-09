@@ -5,7 +5,7 @@ sidebar_position: 0
 
 # Swimm's Desktop
 
-**If you're using the Web App, [you want to head over here](/docs).**
+**If you're using the Web App, [you want to head over here](/).**
 
 :::tip Make sure you upgrade to `.swm.md` format!
 
