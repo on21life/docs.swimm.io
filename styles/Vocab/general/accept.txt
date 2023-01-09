@@ -1,0 +1,9 @@
+[Ss]wimm
+[Aa]uto-sync
+sidebar_position
+(?i)repo
+repos
+[Oo]nboarding
+Signup
+impactful
+Octoverse
