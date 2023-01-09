@@ -1,12 +1,19 @@
 ---
 slug: release-0.11.0
 title: Swimm 0.11.0 Released
-authors: [swimm] 
+authors: [swimm]
 tags: [release-notes]
 date: 2022-12-28
 ---
-import {SwimmLink, SwimmMoji, SwimmReleaseBlogPost, SwimmReleaseTweet, SwimmReleaseVideo} from '../../src/components/SwimmUtils.js';
-import Link from '@docusaurus/Link';
+
+import {
+  SwimmLink,
+  SwimmMoji,
+  SwimmReleaseBlogPost,
+  SwimmReleaseTweet,
+  SwimmReleaseVideo,
+} from "../../src/components/SwimmUtils.js";
+import Link from "@docusaurus/Link";
 
 # Swimm 0.11.0 has been released!
 
@@ -17,27 +24,30 @@ We're pleased to announce the availability of **Swimm 0.11.0**<SwimmMoji text="r
 <SwimmReleaseVideo version="0.11.0" />
 
 ## New features:
+
 - **Multi-Repo Tokens and Paths** - You can now add Smart tokens in any document that refers to code in any other repository.
 - **Navigation to a New Pull Request Tab** - You can now navigate to a new pull request tab when you commit to a new branch and open a PR.
 
 ## Improvements:
-- **New JetBrains Plugin** - Check out the improvements in Swimm's JetBrains plugin. Users can sign up or log in via the IDE. Access Swimm docs directly from the code snippet area and use Swimm's Web App code-coupled editor. Auto-sync is fully supported. 
+
+- **New JetBrains Plugin** - Check out the improvements in Swimm's JetBrains plugin. Users can sign up or log in via the IDE. Access Swimm docs directly from the code snippet area and use Swimm's Web App code-coupled editor. Auto-sync is fully supported.
 - **Swimm's IDE Plugins** - We have improved the stability of the IDE plugins.
 - **Auto-sync Algorithm** - Improved Swimm's patented Auto-sync algorithm.
 
 ## Bug fixes
+
 - Fixed: Saving a table that has a top row.
 - Fixed: Code blocks inside table cells.
 - Fixed: Long wait for the status page to load.
-- Fixed: Up-to-date snippet line numbers.
+- Fixed: up to date snippet line numbers.
 - Fixed: Auto-sync with multi-repo docs with the same file name.
 - Fixed: Smart Tokens changed to sw.md no longer deletes tokens.
-    - Including using a slash.
-    - Reordering draft breaks for Playlists in the App.
-    - Automatic creation of an untitled Playlist when editing a Playlist.
-    - Duplicated docs after saving a Playlists with two new docs.
-    - Time to open existing Playlist docs or a draft doc from a Playlist.
-    - Refresh in Playlist shows all steps as available.
+  - Including using a slash.
+  - Reordering draft breaks for Playlists in the App.
+  - Automatic creation of an untitled Playlist when editing a Playlist.
+  - Duplicated docs after saving a Playlists with two new docs.
+  - Time to open existing Playlist docs or a draft doc from a Playlist.
+  - Refresh in Playlist shows all steps as available.
 - Fixed: Batch commits after refreshing edit docs from templates.
 - Fixed: Drafts with an outdated snippet are no longer all outdated.
 - Fixed: Preventing collisions in token keys in store with multi-repo docs.
@@ -45,7 +55,7 @@ We're pleased to announce the availability of **Swimm 0.11.0**<SwimmMoji text="r
 - Fixed: Deleting docs and Playlists with a PR creation unchecked so that a PR is not created.
 - Fixed: Editor line menu is no longer cut off on small screens.
 - Fixed: The "Create Template" button is no longer enabled if the templates are not loaded.
-- Fixed:  "More tags" and "Manage tags" are fixed.
+- Fixed: "More tags" and "Manage tags" are fixed.
 - Fixed: Drafts are now being saved and no longer deleted.
 - Fixed: Copying and pasting global tokens now works between two tabs or documents.
 - Fixed: Editor no longer ignores token suggestions for onboarding docs.
@@ -58,7 +68,7 @@ We're pleased to announce the availability of **Swimm 0.11.0**<SwimmMoji text="r
 - Fixed: Search modal is no longer open if we click on search results.
 - Fixed: Improved loading time for loading the repo list in the sidebar.
 - Fixed: Snippet Studio line numbers of source files when selecting a snippet are correct.
-- Fixed: Block possible XSS. 
+- Fixed: Block possible XSS.
 
 For further information and any questions, please reach out to us on our <SwimmLink target="slack" />.
 

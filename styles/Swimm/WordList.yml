@@ -3,7 +3,7 @@ message: "Use '%s' instead of '%s'."
 level: error
 ignorecase: false
 swap:
-  app: App
+  GitHub app: GitHub App
   open-source: open source
   developer team: dev team
   (?:auto sync|autosync): auto-sync
