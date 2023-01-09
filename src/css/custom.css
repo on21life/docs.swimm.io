@@ -208,6 +208,10 @@ blockquote::after {
   margin-top: 8px;
 }
 
+code {
+  background-color: #ffffff00;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
