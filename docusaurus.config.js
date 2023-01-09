@@ -78,12 +78,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       '@docusaurus/plugin-client-redirects',
       {
         createRedirects(existingPath) {
-          if (existingPath.startswith('/')) {
-            return [
-              '/docs' + existingPath
-            ];
-          }
-          return undefined; // Return a falsy value: no redirect created
+          return [
+            '/docs' + existingPath
+          ];
         },
       },
     ],
