@@ -77,6 +77,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     [
       '@docusaurus/plugin-client-redirects',
       {
+        redirects: [
+          {
+            to: '/frequentlyaskedquestions',
+            from: '/faq',
+          },
+          {
+            to: '/privacyandsecurity',
+            from: '/security',
+          },
+        ],
         createRedirects(existingPath) {
           return [
             '/docs' + existingPath
