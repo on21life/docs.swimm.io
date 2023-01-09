@@ -1,0 +1,44 @@
+---
+slug: release-1.0.0
+title: Swimm 1.0.0 Released
+authors: [swimm] 
+tags: [release-notes]
+date: 2023-01-02
+---
+import {SwimmLink, SwimmMoji, SwimmReleaseBlogPost, SwimmReleaseTweet, SwimmReleaseVideo} from '../../src/components/SwimmUtils.js';
+import Link from '@docusaurus/Link';
+
+# Swimm 1.0.0 has been released!
+
+We're pleased to announce the availability of **Swimm 1.0.0**<SwimmMoji text="release"/>
+
+<SwimmReleaseBlogPost version="1.0.0" />
+
+<SwimmReleaseVideo version="1.0.0" />
+
+## Improvements:
+- **sw.md Format** - We changed the separation of sw.md information from Smart Tokens, which was causing broken and empty tokens. Now Swimm keeps the text of the token along with its metadata with a ghost HTML tag which is invisible to users but holds all the data needed.
+- **Auto-sync** - Auto-sync algorithm improved, improving accuracy on Auto-syncable snippets. 
+- **App Sidebar** - Added sidebar across the app for a more robust and stable performance.
+- **Creation Hub** - Made changes to Swimm's Creation Hub.
+- **Code Snippets** - Added an action to show less context for code snippets. 
+
+## Bug fixes
+- Fixed: Editor sidebar no longer collapses when moving between steps.
+- Fixed: The status page for the progress bar for repos without documentation.
+- Fixed: New workspaces are now created with counters for admins and users.
+- Fixed: Clicking links in workspaces no longer invites the user to join the workspace.
+- Fixed: Displaying of Smart Paths and Smart Tokens.
+- Fixed: Playlists
+    - Now shows the step types. 
+    - Steps in the progress bar appear as selected when editing Playlist pages.
+    - Discarding doc drafts while editing Playlists.
+- Fixed: Adding repo button icon.
+- Fixed: Auto-sync algorithm no longer takes up too many lines.
+- Fixed: Editor function for Smart Tokens
+    - Smart Tokens ending with brackets are now saved correctly.
+    - Smart Tokens with new lines before them.
+
+For further information and any questions, please reach out to us on our <SwimmLink target="slack" />.
+
+<SwimmReleaseTweet version="1.0.0" />

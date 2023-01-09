@@ -1,10 +1,11 @@
 ---
 id: axB2v
 name: Managing Blog Posts & The Changelog
-file_version: 1.0.2
-app_version: 0.6.4-0
+file_version: 1.1.0
+app_version: 0.11.1
 file_blobs:
-  changelog/2021-10-29-Welcome.mdx: 9ebea1a66716daaa80b3f0f5001365eadeb61744
+  changelog/0.10.2/index.mdx: 4559944fcc6f55f443c37c6b8888a1e12380f782
+  docs/index.mdx: 29c468173c11c5746076b902dfc7bddde20b4786
 ---
 
 We have two kinds of content that gets posted to the changelog portion of the site:
@@ -16,92 +17,55 @@ We have two kinds of content that gets posted to the changelog portion of the si
 
 For automatic release notes, we create a directory in `📄 changelog` matching the syntax `x.y.z`, where the letters represent the major / minor notation of the version. This makes easy permalinks.
 
-For blog posts that have no assets (images, downloads, whatever) create a new file in `📄 changelog` in the format of `YYYY-MM-DD-title-slug.mdx` following the example of `📄 changelog/2021-10-29-Welcome.mdx`like so:
+For blog posts that have no assets (images, downloads, whatever) create a new file in `📄 changelog` in the format of `version/index.mdx` following the example of `📄 changelog/0.11.0/index.mdx` like so:
 
 <br/>
 
-Here, `slug`[<sup id="zCbYL">↓</sup>](#f-zCbYL) ultimately sets the URL slug (this overrides the file name, so use short file names if you want) and `title`[<sup id="2q6wtE">↓</sup>](#f-2q6wtE) sets the title that is displayed to the reader. The `authors`[<sup id="1ghDVK">↓</sup>](#f-1ghDVK) are defined in `📄 changelog/authors.yml` and tags are comma-separated and created on-the-fly.
+Here, `slug`<swm-token data-swm-token=":changelog/0.10.2/index.mdx:2:0:0:`slug: release-0.10.2`"/> ultimately sets the URL slug (this overrides the file name, so use short file names if you want) and `title`<swm-token data-swm-token=":changelog/0.10.2/index.mdx:3:0:0:`title: Swimm 0.10.2 Released`"/> sets the title that is displayed to the reader. The `authors`<swm-token data-swm-token=":changelog/0.10.2/index.mdx:4:0:0:`authors: [swimm] `"/> are defined in `📄 changelog/authors.yml` and tags are comma-separated and created on-the-fly.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 changelog/2021-10-29-Welcome.mdx
+### 📄 changelog/0.10.2/index.mdx
 ```mdx
-⬜ 1      ---
-🟩 2      slug: welcome
-🟩 3      title: Welcome, Swimm Community!
-🟩 4      authors: [swimm, tpost] 
-🟩 5      tags: [announcements, release-notes]
-🟩 6      ---
-🟩 7      import FeedSelector from '../src/components/FeedSelector';
-🟩 8      import Swimm, {SwimmLink} from '../src/components/SwimmUtils.js';
-⬜ 9      import {TwitterTweetEmbed} from 'react-twitter-embed';
-⬜ 10     
-⬜ 11     We're very thrilled to launch our new developer documentation and community 
-⬜ 12     portal using the immensely flexible and feature rich [Docusaurus](https://docusaurus.io) 
+🟩 1      ---
+🟩 2      slug: release-0.10.2
+🟩 3      title: Swimm 0.10.2 Released
+🟩 4      authors: [swimm] 
+🟩 5      tags: [release-notes]
+🟩 6      date: 2022-12-19
+🟩 7      ---
+🟩 8      import {SwimmLink, SwimmMoji, SwimmReleaseBlogPost, SwimmReleaseTweet, SwimmReleaseVideo} from '../../src/components/SwimmUtils.js';
+🟩 9      import Link from '@docusaurus/Link';
 ```
 
 <br/>
 
 Right under the anchor markup, we can import components that we need (in this case we're using Tabs in [admonitions](https://docusaurus.io/docs/markdown-features/admonitions)), but almost any component that is useful in a static generated site will work.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 changelog/2021-10-29-Welcome.mdx
+### 📄 changelog/0.10.2/index.mdx
 ```mdx
-⬜ 3      title: Welcome, Swimm Community!
-⬜ 4      authors: [swimm, tpost] 
-🟩 5      tags: [announcements, release-notes]
-🟩 6      ---
-🟩 7      import FeedSelector from '../src/components/FeedSelector';
-🟩 8      import Swimm, {SwimmLink} from '../src/components/SwimmUtils.js';
-🟩 9      import {TwitterTweetEmbed} from 'react-twitter-embed';
-🟩 10     
-🟩 11     We're very thrilled to launch our new developer documentation and community 
-🟩 12     portal using the immensely flexible and feature rich [Docusaurus](https://docusaurus.io) 
-⬜ 13     to manage all of the content.
-⬜ 14     
+🟩 5      tags: [release-notes]
+🟩 6      date: 2022-12-19
+🟩 7      ---
+🟩 8      import {SwimmLink, SwimmMoji, SwimmReleaseBlogPost, SwimmReleaseTweet, SwimmReleaseVideo} from '../../src/components/SwimmUtils.js';
+🟩 9      import Link from '@docusaurus/Link';
 ```
 
 <br/>
 
 Then, we ultimately mix our components with Github flavored Markdown (NB, it has issues with some of the advanced commonmark features, but works fine for GH style Markdown).
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 changelog/2021-10-29-Welcome.mdx
+### 📄 docs/index.mdx
 ```mdx
-⬜ 15     Along, with detailed documentation, videos and tutorials, you'll find detailed 
-⬜ 16     release notes for every Swimm Release, as well as news about our other tools, such
-⬜ 17     as our [IDE Plugins](/docs/ide-integrations/ide-plugins) or [Github App](/docs/continuous-integration/github-app).
-🟩 18     
-🟩 19     :::tip You can pull RSS or Atom feeds to stay up-to-date:
-🟩 20     
-🟩 21     <FeedSelector />
-🟩 22     
-🟩 23     :::
-🟩 24     
-⬜ 25     Swimm generally releases at the beginning of every week, so you can expect updates
-⬜ 26     to be pretty low volume. There will also be a note if new tutorials are added, or
-⬜ 27     any other features that impact the functionality of this site. Major new features
+🟩 57     :::tip
+🟩 58     ## Ready to get started?
+🟩 59     * <Link to="/docs/getting-started-guide">5-Minute Quick Start Guide</Link>
+🟩 60     * <Link to="/security"> Privacy and security</Link>
+🟩 61     * <Link to="/faq">Do you have any questions? </Link>
+🟩 62     :::
 ```
 
 <br/>
 
 For posts that **do** have images and assets, create a directory similarly to how we set up the automatic changelog entries, and place whatever media is necessary within that folder. To the reader, there is no difference between any of these approaches.
-
-<br/>
-
-<!-- THIS IS AN AUTOGENERATED SECTION. DO NOT EDIT THIS SECTION DIRECTLY -->
-### Swimm Note
-
-<span id="f-1ghDVK">authors</span>[^](#1ghDVK) - "changelog/2021-10-29-Welcome.mdx" L4
-```mdx
-authors: [swimm, tpost] 
-```
-
-<span id="f-zCbYL">slug</span>[^](#zCbYL) - "changelog/2021-10-29-Welcome.mdx" L2
-```mdx
-slug: welcome
-```
-
-<span id="f-2q6wtE">title</span>[^](#2q6wtE) - "changelog/2021-10-29-Welcome.mdx" L3
-```mdx
-title: Welcome, Swimm Community!
-```
 
 <br/>
 

@@ -13,7 +13,7 @@ const FeatureList = [
       </>
     ),
     link_title: 'Find Out How',
-    link_href: '/docs/new-to-swimm/continuous-documentation'
+    link_href: '/new-to-swimm/continuous-documentation'
   },
   {
     title: 'Swimm\'s IDE Plugins',
@@ -25,19 +25,7 @@ const FeatureList = [
       </>
     ),
     link_title: 'See What\'s Supported',
-    link_href: '/docs/ide-integrations/ide-plugins'
-  },
-  {
-    title: 'Knowledgebase Integrations',
-    Svg: require('../../static/img/03_knowledgebaseIntegrations.svg').default,
-    description: (
-      <>
-        Learn how to bring Swimm documentation to your internal knowledge platforms,
-        like Confluence and Notion.
-      </>
-    ),
-    link_title: 'Learn More',
-    link_href: '/docs/ide-integrations/third-Party-knowledgebases'
+    link_href: '/ide-integrations/ide-plugins'
   },
   {
     title: 'Documentation Strategies',
