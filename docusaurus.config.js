@@ -80,7 +80,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         createRedirects(existingPath) {
           if (existingPath.startswith('/')) {
             return [
-              existingPath = '/docs' + existingPath
+              '/docs' + existingPath
             ];
           }
           return undefined; // Return a falsy value: no redirect created
