@@ -1,0 +1,10 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: error
+ignorecase: false
+swap:
+  app: App
+  open-source: open source
+  developer team: dev team
+  developer teams: dev teams
+  (?:auto sync|autosync): auto-sync
