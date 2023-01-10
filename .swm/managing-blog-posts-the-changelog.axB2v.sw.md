@@ -57,7 +57,7 @@ Then, we ultimately mix our components with Github flavored Markdown (NB, it has
 ```mdx
 🟩 57     :::tip
 🟩 58     ## Ready to get started?
-🟩 59     * <Link to="/docs/getting-started-guide">5-Minute Quick Start Guide</Link>
+🟩 59     * <Link to="/docs/getting-started-guide">5-Minute getting started guide</Link>
 🟩 60     * <Link to="/security"> Privacy and security</Link>
 🟩 61     * <Link to="/faq">Do you have any questions? </Link>
 🟩 62     :::

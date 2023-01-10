@@ -317,7 +317,7 @@ So Swimm doesn't replace comments in code - <a target="_blank" href="https://swi
                     <li>Swimm syncing capabilities </li>
                     </ul>
 
-                    Swimm "<a target="_blank" href="/getting-started-guide">Quick Start Guide</a>" is a 5 minutes tutorial that goes through Swimm's capabilities.
+                    Swimm "<a target="_blank" href="/getting-started-guide">Getting started guide</a>" is a 5 minutes tutorial that goes through Swimm's capabilities.
                 </p>
             }
         ]
