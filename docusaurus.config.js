@@ -237,7 +237,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           href: 'https://swimm.io',
         },
         copyright: `
-        Copyright © ${new Date().getFullYear()} Swimm, Inc. Built with Docusaurus.<br />
+        Copyright © ${new Date().getFullYear()} Swimm, Inc. Built with Docusaurus and automatically kept up to date using <a href ="https://swimm.io/">Swimm</a>.<br />
         Text Content Licensed Under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> 
         with <a href="https://wiki.creativecommons.org/wiki/best_practices_for_attribution">Attribution Required</a>.<br />
         Code Snippets & Configuration Examples Are Also Licensed Under <a href="https://opensource.org/licenses/MIT">The MIT License</a>.<br />`,
