@@ -79,12 +79,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       {
         redirects: [
           {
-            to: '/frequentlyaskedquestions',
-            from: '/faq',
+            to: '/faq',
+            from: '/frequentlyaskedquestions',
           },
           {
-            to: '/privacyandsecurity',
-            from: '/security',
+            to: '/security',
+            from: '/privacyandsecurity',
           },
         ],
         createRedirects(existingPath) {
