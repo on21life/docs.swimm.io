@@ -26,7 +26,7 @@ const FAQIndex = {
                     </p>
             },
             {
-                title: "Can create a Playlist that steps through multiple repositories?",
+                title: "Can I create a Playlist that steps through multiple repositories?",
                 content:
                     <p>
                         You can create a Playlist with documents that exist in one or more repositories. 
