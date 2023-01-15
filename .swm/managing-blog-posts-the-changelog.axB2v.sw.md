@@ -2,10 +2,10 @@
 id: axB2v
 name: Managing Blog Posts & The Changelog
 file_version: 1.1.0
-app_version: 0.11.1
+app_version: 1.0.6
 file_blobs:
   changelog/0.10.2/index.mdx: 4559944fcc6f55f443c37c6b8888a1e12380f782
-  docs/index.mdx: 29c468173c11c5746076b902dfc7bddde20b4786
+  docs/index.mdx: c43ed9303b3e0a01afd26c64cbe267a3bb23766e
 ---
 
 We have two kinds of content that gets posted to the changelog portion of the site:
@@ -55,12 +55,15 @@ Then, we ultimately mix our components with Github flavored Markdown (NB, it has
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 docs/index.mdx
 ```mdx
-🟩 57     :::tip
-🟩 58     ## Ready to get started?
-🟩 59     * <Link to="/docs/getting-started-guide">5-Minute getting started guide</Link>
-🟩 60     * <Link to="/security"> Privacy and security</Link>
-🟩 61     * <Link to="/faq">Do you have any questions? </Link>
-🟩 62     :::
+🟩 66     :::tip
+🟩 67     
+🟩 68     ## Ready to get started?
+🟩 69     
+🟩 70     - <Link to="/getting-started-guide">Getting started guide</Link>
+🟩 71     - <Link to="/security"> Privacy and security</Link>
+🟩 72     - <Link to="/faq">Do you have any questions? </Link>
+🟩 73     
+🟩 74     :::
 ```
 
 <br/>

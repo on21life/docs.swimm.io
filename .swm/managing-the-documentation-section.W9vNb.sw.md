@@ -2,15 +2,15 @@
 id: W9vNb
 name: Managing The Documentation Section
 file_version: 1.1.0
-app_version: 0.10.1-2
+app_version: 1.0.6
 file_blobs:
-  docs/authorization/_category_.json: d445ce7088359f0e0f79dd1a9336bf7bee732e53
-  docs/authorization/index.mdx: 74be2214ca07be3338805d46aa1d1463af32f896
+  docs/authorization/_category_.json: 0c96a2708c4fe539f601ef4db887553371c51c99
+  docs/authorization/index.mdx: 3fc09ce1fffcec845dc83be1345df42702c1fc1b
 ---
 
-All of the documentation that lives in the side bar can be found in `📄 docs` . The main landing page for that section is `📄 docs/index.mdx` , which is what you see if you navigate to `/docs` directly on the site. There's also a nav link to go right to the documentation without first viewing the quick start.
+All of the documentation that lives in the side bar can be found in `📄 docs` . The main landing page for that section is `📄 docs/index.mdx` , which is what you see if you navigate to `📄 docs` directly on the site. There's also a nav link to go right to the documentation without first viewing the quick start.
 
-Documents have a special table at the top that determines their slug, title, and sort order for display. Let's take a quick look at what's going on in `📄 docs/authorization` , starting with \[\[sym:./docs/authorization/_category_.json(1dc1f99f-d5fb-47f4-9cea-efd7b6bdf811)\]\]
+Documents have a special table at the top that determines their slug, title, and sort order for display. Let's take a quick look at what's going on in `📄 docs/authorization` , starting with `position`<swm-token data-swm-token=":docs/authorization/_category_.json:3:2:2:`    &quot;position&quot;: 9`"/>
 
 <br/>
 
@@ -19,7 +19,7 @@ The JSON file determines where the _category_ should be displayed (in which orde
 ### 📄 docs/authorization/_category_.json
 ```json
 🟩 2          "label": "Signup & authorization",
-🟩 3          "position": 5
+🟩 3          "position": 9
 ```
 
 <br/>
