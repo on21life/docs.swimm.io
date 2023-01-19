@@ -413,16 +413,6 @@ So Swimm doesn't replace comments in code - <a target="_blank" href="https://swi
                     </p>
             },
             {
-                title: "How do I invite someone to a workspace?",
-                content:
-                    <p>
-                         You can invite a teammate via the <strong>Invite </strong>link located at the top right corner in the Swimm App. 
-                         In the email input field, enter your teammate's email address. Alternatively,
-                        if you are looking to invite multiple teammates, separate their email addresses with a comma. 
-                        When done, click the <strong>Send invite</strong> button.
-                    </p>
-            },  
-            {
                 title: "Is there a way to exclude a file or a folder from Auto-sync?",
                 content: 
                     <p>
