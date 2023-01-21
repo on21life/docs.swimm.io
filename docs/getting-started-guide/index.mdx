@@ -25,7 +25,10 @@ This doc will walk you through the process of creating your first Swimm doc.
 
 <!-- vale Swimm.WordList = YES -->
 
-## Step 2: Use Swimm’s code-coupled editor to edit and add content
+#2 Step 2: Choose a title
+Start by giving your document a title. Our recommendation is to be as descriptive as possible - `How to post analytics` is a better title than `Analytics`, as the former tells the reader what they will learn from reading the doc.
+
+## Step 3: Use Swimm’s code-coupled editor to edit and add content
 
 Swimm’s slash editor commands are a great way to quickly create and edit content in your documents.
 
@@ -47,7 +50,12 @@ To pick a command, start typing its name followed by “Enter” or just click o
 - `Code` `Snippet` - Add live code to your document with code snippets.
 - `Diagram`\- Add a code-coupled diagram.
 
-## Step 3: Add your first code snippet
+## Step 4: Add your first code snippet
+
+:::tip **Start from your code**
+It is so much easier to create an effective document when you start from the code.
+Select your code snippets first, and write text later.
+:::
 
 Type `/Code` and select to add a code snippet. Our Snippet Studio will show up.
 
@@ -57,19 +65,19 @@ This will add the code snippet to your document.
 
 Above the snippet, you will see an area to describe and write about the snippet. This part does not need to be long. Best to just describe what the snippet does.
 
-## Step 4: Add Smart Tokens
+:::tip **Snippets from multiple repositories**
+Since Swimm has access to all repos authorized, we take advantage of being able to include code-coupled elements from multiple repositories.
+:::
+
+## Step 5: Add Smart Tokens
 
 Smart Tokens help you keep your documentation up to date by allowing you to reference parts of your code even outside of snippets in a way that automatically updates when the code changes.
 
 The most common use for Smart Tokens is referencing variable, method, or function names within the document.
 
-<!-- vale Swimm.WordList = NO -->
-
 ![smart token](../../static/img/smart-token.png)
 
-<!-- vale Swimm.WordList = YES -->
-
-## Step 5: Save and commit
+## Step 6: Save and commit
 
 - Click on the “Commit 1 Change” button in the top right corner.
 - Create a new branch to start a PR or push to an existing branch.
