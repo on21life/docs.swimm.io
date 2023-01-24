@@ -26,7 +26,7 @@ const FAQIndex = {
                     </p>
             },
             {
-                title: "Can create a Playlist that steps through multiple repositories?",
+                title: "Can I create a Playlist that steps through multiple repositories?",
                 content:
                     <p>
                         You can create a Playlist with documents that exist in one or more repositories. 
@@ -317,7 +317,7 @@ So Swimm doesn't replace comments in code - <a target="_blank" href="https://swi
                     <li>Swimm syncing capabilities </li>
                     </ul>
 
-                    Swimm "<a target="_blank" href="/getting-started-guide">Quick Start Guide</a>" is a 5 minutes tutorial that goes through Swimm's capabilities.
+                    Swimm "<a target="_blank" href="/getting-started-guide">Getting started guide</a>" is a 5 minutes tutorial that goes through Swimm's capabilities.
                 </p>
             }
         ]
@@ -412,16 +412,6 @@ So Swimm doesn't replace comments in code - <a target="_blank" href="https://swi
                         When done, click the <strong>Send invite</strong> button.
                     </p>
             },
-            {
-                title: "How do I invite someone to a workspace?",
-                content:
-                    <p>
-                         You can invite a teammate via the <strong>Invite </strong>link located at the top right corner in the Swimm App. 
-                         In the email input field, enter your teammate's email address. Alternatively,
-                        if you are looking to invite multiple teammates, separate their email addresses with a comma. 
-                        When done, click the <strong>Send invite</strong> button.
-                    </p>
-            },  
             {
                 title: "Is there a way to exclude a file or a folder from Auto-sync?",
                 content: 

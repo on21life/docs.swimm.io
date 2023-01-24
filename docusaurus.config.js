@@ -10,7 +10,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.svg',
+  favicon: 'img/favicon.ico',
   organizationName: 'swimmio', // Usually your GitHub org/user name.
   projectName: 'docs.swimm.io', // Usually your repo name.
   titleDelimiter: '🏊',
@@ -67,6 +67,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
+        docsRouteBasePath: '/',
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
         // language: ["en", "zh"],
@@ -75,12 +76,23 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       },
     ],
     [
-      '@docusaurus/plugin-content-docs',
+      '@docusaurus/plugin-client-redirects',
       {
-        id: 'desktop',
-        path: 'desktop',
-        routeBasePath: 'desktop',
-        sidebarPath: require.resolve('./sidebarsDesktop.js'),
+        redirects: [
+          {
+            to: '/faq',
+            from: '/frequentlyaskedquestions',
+          },
+          {
+            to: '/security',
+            from: '/privacyandsecurity',
+          },
+        ],
+        createRedirects(existingPath) {
+          return [
+            '/docs' + existingPath
+          ];
+        },
       },
     ],
   ],
@@ -139,8 +151,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to: '/getting-started-guide',
               },
               {
-                label: 'Use Cases',
-                href: 'https://swimm.io/use-cases',
+                label: 'Case Studies',
+                href: 'https://swimm.io/case-studies',
               },
               {
                 label: 'Pricing',
@@ -226,7 +238,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           href: 'https://swimm.io',
         },
         copyright: `
-        Copyright © ${new Date().getFullYear()} Swimm, Inc. Built with Docusaurus.<br />
+        Copyright © ${new Date().getFullYear()} Swimm, Inc. Built with Docusaurus and automatically kept up to date using <a href ="https://swimm.io/">Swimm</a>.<br />
         Text Content Licensed Under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> 
         with <a href="https://wiki.creativecommons.org/wiki/best_practices_for_attribution">Attribution Required</a>.<br />
         Code Snippets & Configuration Examples Are Also Licensed Under <a href="https://opensource.org/licenses/MIT">The MIT License</a>.<br />`,

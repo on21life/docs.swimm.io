@@ -4,16 +4,23 @@ slug: /
 sidebar_position: 0
 ---
 
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import Link from "@docusaurus/Link";
+
 import HomepageFeatures from "../src/components/HomepageFeatures";
 import FeedSelector from "../src/components/FeedSelector";
 import Swimm, { SwimmVersion, SwimmLink } from "../src/components/SwimmUtils";
-import Link from "@docusaurus/Link";
+import ReactPlayer from "react-player";
 
 # Welcome to Swimm
 
+All your engineering knowledge — available in the IDE, integrated with code, and automatically updated.
+
 ## What is Swimm
 
-Swimm is a documentation tool designed for engineering teams to meet documentation challenges. <br/>
+Swimm is a documentation tool designed for engineering teams to meet documentation challenges.
+
+With Swimm, you can streamline internal code documentation and share developer knowledge across teams and repositories.
 
 Swimm enables developers to create documentation that is:
 
@@ -22,30 +29,35 @@ Swimm enables developers to create documentation that is:
 - **Easily** created
 - Consumed **when and where** needed
 
+**This site is also automatically kept up to date using Swimm 😎**
+
+Watch a 1-minute video about Swimm:<br/>
+
+<ReactPlayer url="https://www.youtube.com/watch?v=1mQ5tOeI0nk" />
+
 ## Why Swimm
 
 Many companies have given up on documentation, saying things like:
 
-> “Our docs become obsolete very quickly.”<br/>
+> “Our docs quickly become obsolete.”<br/>
 > “We just don't have time for documentation.”<br/>
-> “Documentation is too hard to create.”<br/>
-> “Developers don't like to write” or “The last thing developers want to do is write documentation.”<br/>
-> “It's too much work to maintain and update docs.”<br/>
+> “When you need a document it's too hard to find it.”<br/>
+> “Developers don't like to write it.”<br/>
+> “It's too much work to maintain and update docs.”
 
 We know documentation is broken. That's why we're here to fix it.
 
-:::info Why Swimm?
-The connection between good documentation and higher developer productivity is now well established (<Link to="https://octoverse.github.com/">GitHub's Octoverse study</Link>).
-At Swimm, we have seen firsthand that **developer documentation is really a game changer for companies**.
+:::info
+Why Swimm? The connection between good documentation and higher developer productivity is now well established (<Link to="https://octoverse.github.com/">GitHub's Octoverse study</Link>). At Swimm, we have seen firsthand that **developer documentation is really a game changer for companies**.
 :::
 
 ## Swimm's approach
 
-Swimm's entire solution is built for engineering teams by engineers. <br/>
+Swimm's entire solution is built for engineering teams by engineers.<br/>
 
-We treat documentation like code (Docs-as-code) to streamline the process so that documentation and code are created and maintained together. Swimm saves all documentation as code so that your docs are easy to read as Markdown files.<br/>
+We treat documentation like code (Docs as code) to streamline the process so that documentation and code are created and maintained together. Swimm saves all documentation as code so that your docs are easy to read as Markdown files.<br/>
 
-Swimm has **many integrations** with other tools.** Compass**. **VS Code**. **IntelliJ**. **Slack** and more to come!
+Swimm has **many integrations** with other tools: **VS Code**, **IntelliJ**, **Slack** and more to come.
 
 ## How Swimm is different
 
@@ -64,7 +76,12 @@ With Swimm, you will consume documentation directly from the IDE. Accessing docu
 
 ## Ready to get started?
 
-- <Link to="/getting-started-guide">5-Minute Quick Start Guide</Link>
+- <Link to="/getting-started-guide">Getting started guide</Link>
 - <Link to="/security"> Privacy and security</Link>
 - <Link to="/faq">Do you have any questions? </Link>
-  :::
+
+:::
+
+---
+
+This document is automatically kept up to date using [Swimm](https://swimm.io).
