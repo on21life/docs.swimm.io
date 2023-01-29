@@ -55,7 +55,7 @@
   ;
   --ifm-navbar-search-input-icon: url(/img/search.svg);
   --ifm-navbar-search-input-color: #8D98FF;
-  --ifm-navbar-background-color: #ffffff8e;
+  --ifm-navbar-background-color: #ffffff;
   --row-title-color: #1D1E2B;
   --arrow-color: #1D1E2B;
 }
@@ -63,14 +63,13 @@
 [data-theme='dark'] {
   --row-title-color: #ffffff;
   --arrow-color: #ffffff;
-  --ifm-navbar-background-color: #1d1e2b8a;
+  --ifm-navbar-background-color: #1d1e2b;
 }
 
 html[data-theme='dark'] {
   --ifm-background-surface-color: #1D1E2B;
 }
 .navbar {
-  backdrop-filter: blur(32px);
   box-shadow: none;
   border-bottom: solid 2px rgba(65, 84, 255, 0.1);
   padding: 10px 28px !important;
