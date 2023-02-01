@@ -3,13 +3,18 @@ id: Getting started guide
 slug: /getting-started-guide
 sidebar_position: 0
 ---
-
-import useBaseUrl from "@docusaurus/useBaseUrl";
-import Link from "@docusaurus/Link";
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
 
 import ReactPlayer from "react-player";
 
 This doc will walk you through the process of creating your first Swimm doc.
+
+# Use our demo repo
+With our <Link to="/new-to-swimm/demo-repo">demo repo</Link> you can create a document with snippets and smart tokens, and even play around with our <Link to="/Features/keeping-docs-up-to-date">Auto-sync</Link> feature. It is a great way to get to know Swimm.
+
+# Or create your first doc on your own repo
+The rest of this page will walk you through the process of creating your first Swimm doc on your own repository.
 
 :::info
 If you create your Swimm doc from your workspace home, be sure to select your intended repository. The doc will be created on the default branch. If you want to create a doc on a specific branch within the repo, navigate to the repository and select the branch from the dropdown in the breadcrumbs up top. Remember that docs are saved as markdown files within the repo, just like other code flies - so this branch is where the doc will be saved.
@@ -19,21 +24,16 @@ If you create your Swimm doc from your workspace home, be sure to select your in
 
 ## Step 1: Pick a way to start creating a doc
 
-<br />
-
 ![Creation Hub](../../static/img/create_first_doc.png)
 
 **Blank Doc** - Just as it sounds, this is a blank doc page. Choose this option if you are clear about what you want to write.
 
 **Playlist** - An ordered sequence of documents and other resources.
 
-<!-- vale Swimm.WordList = NO -->
-
 **Pull Request** - We pull all the code parts from any PR as a scaffold for creating your doc.
 
-<!-- vale Swimm.WordList = YES -->
 
-#2 Step 2: Choose a title
+## Step 2: Choose a title
 Start by giving your document a title. Our recommendation is to be as descriptive as possible - `How to post analytics` is a better title than `Analytics`, as the former tells the reader what they will learn from reading the doc.
 
 ## Step 3: Use Swimm’s code-coupled editor to edit and add content
@@ -41,6 +41,7 @@ Start by giving your document a title. Our recommendation is to be as descriptiv
 Swimm’s slash editor commands are a great way to quickly create and edit content in your documents.
 
 <ReactPlayer url="https://www.youtube.com/watch?v=RVo1YPqElJg" />
+
 
 To use these commands, type `/` at any line and you will see the commands menu.
 
@@ -52,11 +53,16 @@ To pick a command, start typing its name followed by “Enter” or just click o
 
 **Important Swimm commands:**
 
-- `Path`\- Add a path of a directory or a file in your document. Swimm will track it in case it is renamed, moved, or deleted.
-- `Doc` - Add a link to an existing Swimm doc. Swimm will track it in case it is getting out of date and notify.
-- `Playlist` - Add a link to an existing Playlist. Swimm will track it and notify you if it’s out of date.
-- `Code` `Snippet` - Add live code to your document with code snippets.
-- `Diagram`\- Add a code-coupled diagram.
+*   `Path`\- Add a path of a directory or a file in your document. Swimm will track it in case it is renamed, moved, or deleted.
+    
+*   `Doc` - Add a link to an existing Swimm doc. Swimm will track it in case it is getting out of date and notify.
+    
+*   `Playlist` - Add a link to an existing Playlist. Swimm will track it and notify you if it’s out of date.
+    
+*   `Code` `Snippet` - Add live code to your document with code snippets.
+    
+*   `Diagram`\- Add a code-coupled diagram.
+
 
 ## Step 4: Add your first code snippet
 
@@ -67,14 +73,16 @@ Select your code snippets first, and write text later.
 
 Type `/Code` and select to add a code snippet. Our Snippet Studio will show up.
 
+
 Snippet Studio provides you with an easy way to locate a file and select a certain section from it. Once you have selected the code section, click “Add & Exit” (or press “Enter”).
+
 
 This will add the code snippet to your document.
 
 Above the snippet, you will see an area to describe and write about the snippet. This part does not need to be long. Best to just describe what the snippet does.
 
 :::tip **Snippets from multiple repositories**
-Since Swimm has access to all repos authorized, we take advantage of being able to include code-coupled elements from multiple repositories.
+Since Swimm has access to all repos authorized, we take advantage of being able to include code-coupled elements from multiple repositories. 
 :::
 
 ## Step 5: Add Smart Tokens
@@ -87,11 +95,12 @@ The most common use for Smart Tokens is referencing variable, method, or functio
 
 ## Step 6: Save and commit
 
-- Click on the “Commit 1 Change” button in the top right corner.
-- Create a new branch to start a PR or push to an existing branch.
+*   Click on the “Commit 1 Change” button in the top right corner.
+    
+*   Create a new branch to start a PR or push to an existing branch.
+
 
 All docs will be saved under the .swm folder once the docs are committed to the repo.
 
 ---
-
 This document is automatically kept up to date using [Swimm](https://swimm.io).

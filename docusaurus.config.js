@@ -87,6 +87,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             to: '/security',
             from: '/privacyandsecurity',
           },
+          {
+            to: '/new-to-swimm/demo-repo',
+            from: '/new-to-swimm/demo-workspace',
+          },
         ],
         createRedirects(existingPath) {
           return [
