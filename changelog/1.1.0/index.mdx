@@ -1,0 +1,31 @@
+---
+slug: release-1.1.0
+title: Swimm 1.1.0 Released
+authors: [swimm] 
+tags: [release-notes]
+date: 2023-01-21
+---
+import {SwimmLink, SwimmMoji, SwimmReleaseBlogPost, SwimmReleaseTweet, SwimmReleaseVideo} from '../../src/components/SwimmUtils.js';
+import Link from '@docusaurus/Link';
+
+# Swimm 1.1.0 has been released!
+
+We're pleased to announce the availability of **Swimm 1.1.0**<SwimmMoji text="release"/>
+
+## New Features:
+- **Demo repo** - Users can experiment with Swimm in a new workspace without connecting a repo.
+- **GitHub App links to added docs** - when adding a document to an existing PR, Swimm leaves a comment with links to the added document so that reviewers can quickly access them.
+
+## Improvements:
+- **Reviewing changes in the current branch** - when not in your default branch, docs changed or added in the current branch will now be shown at the top of the doc list.
+- **Branch selector view** - the branches you have most recently worked on will be listed first. 
+- **Changing branches from the View Doc page** - You can now change branches while viewing a document.
+- **Youtube video** - We now open the link to Youtube videos instead of showing them in the IDE. 
+- **Snippet selection** - You can now better distinguish between snippets already added to the doc and snippets currently selected.
+
+## Bug fixes
+- Fixed: when reviewing an out-of-date doc from GitHub, committing changes takes you back to the pull request. 
+
+For further information and any questions, please reach out to us on our <SwimmLink target="slack" />.
+
+<SwimmReleaseTweet version="1.1.0" />
