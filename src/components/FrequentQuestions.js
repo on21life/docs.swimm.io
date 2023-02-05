@@ -4,11 +4,25 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Faq from "react-faq-component";
 import styles from './FrequentQuestions.module.css';
 
-const config = {
+const TabConfig = {
     animate: true,
     arrowIcon: "▲",
-    tabFocus: true,
+    focus: true,
 };
+
+export default function FrequentQuestions({Category, Index=FAQIndex}) {
+    var data = Index[Category];
+    return (
+    <div>
+            <Faq
+                data={data}
+                styles={styles}
+                config={config}
+            />
+            <br />
+        </div>
+    );
+}
 
 const FAQIndex = {
     Creating: {
@@ -598,17 +612,3 @@ So Swimm doesn't replace comments in code - <a target="_blank" href="https://swi
         ]
     }
 };
-
-export default function FrequentQuestions({Category, Index=FAQIndex}) {
-    var data = Index[Category];
-    return (
-    <div>
-            <Faq
-                data={data}
-                styles={styles}
-                config={config}
-            />
-            <br />
-        </div>
-    );
-}
