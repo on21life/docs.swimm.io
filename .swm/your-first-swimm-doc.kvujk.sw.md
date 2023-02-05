@@ -17,12 +17,11 @@ The config object sets how the FAQ widget will behave.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/components/FrequentQuestions.js
 ```javascript
-7      const config = {
+7      const TabConfig = {
 8          animate: true,
 9          arrowIcon: "▲",
-10         tabFocus: true,
+10         focus: true,
 11     };
-12     
 ```
 
 <br/>
