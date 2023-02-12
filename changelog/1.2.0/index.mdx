@@ -1,0 +1,35 @@
+---
+slug: release-1.2.0
+title: Swimm 1.2.0 Released
+authors: [swimm] 
+tags: [release-notes]
+date: 2023-02-12
+---
+import {SwimmLink, SwimmMoji, SwimmReleaseBlogPost, SwimmReleaseTweet, SwimmReleaseVideo} from '../../src/components/SwimmUtils.js';
+import Link from '@docusaurus/Link';
+
+# Swimm 1.2.0 has been released
+
+We're pleased to announce the availability of **Swimm 1.2.0**<SwimmMoji text="release"/>
+
+## New Features:
+- **Batch commit** -Aa new design that clarifies the status of each document.
+- **Repo page** - Display committed documents and playlists that are changed on the current branch at the top of the list.
+
+## Improvements:
+- **Adding content between existing cells** - A smoother experience to add content between existing cells.
+- **Trial** - When a trial expires, all admins will receive an email.
+- **Snippet studio** - A clear message when selecting an empty source file.
+- **Navigation** - Allow navigation to a repo by clicking on it from the sidebar, across the app.
+
+## Bug fixes
+- Fixed: Batch commit modal's data was lost once the modal closed.
+- Fixed: The homepage's 'Recently Created' view showed wrong results on some cases.
+- Fixed: Issues with moving drafts across branches.
+- Fixed: Auto-suggestions for multi-repo tokens.
+- Fixed: Doc from an open PR was opened on the default branch instead of the relevant branch.
+- Fixed: Broken navigation when clicking on the `Back` arrow.
+
+For further information and any questions, please reach out to us on our <SwimmLink target="slack" />.
+
+<SwimmReleaseTweet version="1.1.0" />
