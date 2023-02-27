@@ -1,4 +1,17 @@
 {
+  "1.3.0": {
+    "major": 1,
+    "minor": 3,
+    "patch": 0,
+    "patchlevel": null,
+    "name": "1.3.0",
+    "date": 1677435722,
+    "security": null,
+    "blog": null,
+    "tweet": null,
+    "youtube": null,
+    "linkedin": null
+  },
   "1.2.0": {
     "major": 1,
     "minor": 2,
