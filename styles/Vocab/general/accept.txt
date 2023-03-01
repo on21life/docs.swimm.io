@@ -9,3 +9,4 @@ impactful
 Octoverse
 OAuth
 dev
+Mermaid
