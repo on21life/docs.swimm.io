@@ -10,3 +10,4 @@ Octoverse
 OAuth
 dev
 Mermaid
+[Dd]iscoverability

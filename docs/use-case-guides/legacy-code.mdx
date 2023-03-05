@@ -1,0 +1,55 @@
+---
+id: Exploring and documenting legacy code
+slug: legacy-code
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
+
+# Exploring and documenting legacy code
+
+This is a part of our use case guide series exploring how the use of code-coupled documents can help engineering teams thrive.
+
+Legacy code refers to code that is no longer being actively developed or maintained but is still in use. It can be challenging to understand because it may not have been written with current best practices in mind and may be missing documentation. Additionally, the original developers may no longer be available to explain the code's logic and design choices.
+
+Understanding legacy code can be crucial if there are system failures or security breaches, as it allows developers to identify and fix the problem quickly. Without understanding legacy code, it becomes increasingly difficult to maintain, update, and improve the system over time.
+
+Throughout this post, we provide practical tips for understanding legacy code and make the case for creating documentation as part of your software development process.
+
+## Why should you create documentation while understanding legacy code?
+
+There are a few excellent reasons to create documentation while understanding the legacy code at hand:
+
+1. **For better learning**. The protégé effect is a psychological phenomenon where teaching, pretending to teach, or preparing to teach information to others helps a person learn that information. When you explain in written form what you understand about the codebase, you validate that you got things right, and see what is still missing to get the full picture. For example, you may create a drawing to explain a process, just to realize there is a missing part you still don’t fully understand.
+1. **For your future self**. You may find yourself going through this codebase again and wouldn’t want to explore it all over again as if it were the first time.
+1. **For the next person**. Pave the path for the next developer going into this codebase while you’re working hard to understand the code yourself.
+
+## How to understand legacy code like a pro
+
+Before you even start, spend time determining the code's purpose and try to understand what it is supposed to do. Look for documentation, or talk to the original developer if possible. Even if they are not available to answer technical questions, they may explain what this codebase is responsible for. In addition, product managers may have relevant knowledge about the motivations behind the codebase.
+
+In addition to looking at the code itself, you can rely on the codebase’s history. There are a few great articles about harvesting Git’s history to gain insights about the codebase, such as [Adam Tornhill’s Code as a Crime Scene](https://www.adamtornhill.com/articles/crimescene/codeascrimescene.htm).
+
+### Code visualization tools
+Code visualization tools such as CodeMap and Source Insight can help explain
+** the overall structure of the codebase
+** how different parts of the code interact with one another
+** the code by providing context-sensitive information, such as function prototypes and variable declarations.
+
+Code visualization tools can also be configured to work with version control systems, such as Git, allowing you to view the history of code changes and understand how the code has evolved.
+
+### Code coverage tools
+
+One way to understand how the code works is by actually playing with it to run existing tests.
+
+Code coverage tools, such as JaCoCo and Cobertura, can help you understand which parts of the code are executed during testing and which are not. For the covered parts, you can find the tests linked to them and read through the tests to understand how to work with these parts of the code. Running the tests with a debugger, and seeing how the variables change in runtime is useful for getting a hands-on feeling of the code.
+
+To further explore your code without adding to it, you can add additional tests. Later, these tests can help ensure that changes to the code do not break existing functionality.
+
+## What to include in your documents
+
+While understanding legacy code, it is helpful to write many notes for yourself to explain everything you can.
+
+Think of your own process for understanding the code and the insights that helped you the most, and make sure you include them in the document. Specifically, remember to include all technical details, such as how to run the project and its tests. Including these technical steps are helpful because they consume a lot of time to try and figure out on your own.
+
+After you gain enough understanding, create documentation for the code to onboard a new team member to this codebase. Use <Link to="use-case-guides/onboarding">our guide for writing documents for onboarding your team to a new project</Link>.

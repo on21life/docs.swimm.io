@@ -1,0 +1,57 @@
+---
+id: Support an infrastructure change
+slug: infrastructure-change
+---
+
+import WhyARealExample from "../../snippets/why-a-real-example.mdx"
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
+
+# Support an infrastructure change
+
+This post is a part of our use case guide series, exploring how the use of code-coupled documents can help engineering teams thrive.
+
+Infrastructure changes usually happen once organizations mature and the code no longer matches the changing needs of the business. Maybe you need to scale, and perhaps you find yourself slowed down by inter-team dependencies.
+
+Even though changing infrastructure can be super helpful in the long run, managing the transition is challenging especially as many developers will need to understand and work with the new infrastructure.
+
+In this document, we provide a few tips to create a knowledge hub to effectively support your infrastructure change.
+
+## Create a high-level overview of your infrastructure
+
+Whether your change is substantial and entails multiple new repositories or modules, or the change is more granular and includes the introduction of a single new infrastructure library, it is important to provide a high-level overview of the new infrastructure.
+
+First, create an overview document consisting of the following elements:
+
+**Motivation** - you are introducing a new infrastructure which costs time both in developing it and learning to use it. You know you are doing it for good reasons, and it is important that developers are aware of them.
+
+**Relationships and main modules** - explain the different entities and their relationship. If you introduce multiple new services, explain how they are placed in the existing ecosystem and how they interact. If you document a single, new library or service, explain how it interacts with other services, what services may communicate with it, and why. Remember that this is only a high-level description, so don't go into too much detail.
+
+**Diagrams** are super useful for this kind of reference. [Learn more about Swimm's Mermaid integration and how to create up-to-date diagrams](https://swimm.io/blog/create-up-to-date-diagrams-with-swimm-s-mermaid-integration/).
+
+## Explain each service
+
+The following sections relate to each part of your infrastructure, so if you create a few different repositories, each providing a different service - you should follow them for each one of these repositories.
+
+### Create usage examples
+
+You have created your infrastructure for others to use. Even if you are not going to use it yourself - create a real example showing how you should use the functionality you are exposing. Make sure your examples adhere to best practices you would like to encourage when using your infrastructure.
+
+#### What is a good example?
+
+A good example, in this context, has two main attributes:
+
+1. It demonstrates all (or most) of the things/steps a developer should implement when using certain functionality within the infrastructure. If, for example, you expose a specific function through REST API, and you almost always need to validate the response in a certain way to then issue another REST API call, you should create an example that shows these steps.
+2. It is the simplest, shortest example that demonstrates the pattern. Remember, the goal is to exemplify the pattern rather than understand the details of this specific example. 
+
+### Your docs should focus on real usage examples
+
+<WhyARealExample />
+
+### What your document should include
+
+Your doc should include a general explanation of the service/library/repository you are describing its purpose.
+
+* Provide concrete usage examples from the codebase.
+* Mention the important functions that are used. This should be the main example described above. If there are many different examples, we recommend splitting them up into different documents.
+* Describe the best practices - dos and don'ts regarding infrastructure usage, input validation, and assertions, etc. When there are specific assumptions or tweaks for specific use cases, mention them.

@@ -1,0 +1,42 @@
+---
+id: How to promote a new tool
+slug: promoting-new-tools
+---
+
+import WhyARealExample from "../../snippets/why-a-real-example.mdx"
+import NewToolsConsiderations from "../../snippets/new-tool-considerations.mdx"
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
+
+# How to promote a new tool
+
+This is a part of our use case guide series, exploring how code-coupled documents can help engineering teams thrive.
+
+When introducing a new tool or library, engineering teams often need to quickly adopy the best practices related to this new tool. Best practices stem from experience, and understanding what works well and what doesn't. Adhering to best practices can help avoid mistakes but promoting them across organizations can be challenging, especially over time. Using code-coupled documents can significantly help software development teams promote best practices.
+
+## General considerations when promoting a new tool
+
+<NewToolsConsiderations />
+
+### Use an example
+
+The best way to explain how to use a new tool or library is by demonstrating it. Even if you have just implemented the wrapper, implement a first usage example yourself before sharing the tool with others.
+
+Perhaps the most important part is to find a **good** example of using the tool. Note it should be a real example from your codebase rather than a made-up example with pseudo-code. You may need to write such an example if it doesn't exist already.
+
+<WhyARealExample />
+
+## What should your document include?
+
+A general explanation of this library:
+1. Its purpose.
+1. Why and how we use it in our codebase (a very short description).
+1. A link to its external documentation.
+
+### Additional things to include
+
+* Provide a concrete usage example from the codebase. Mention the important functions that are used. This should be the main example as described above.
+* Describe the best practices - dos and dont'ts, regarding the usage of this library in our codebase.
+When there are specific assumptions or tweaks for the use case of this specific codebase, mention them. For example, if you have used a workaround to make something work differently than intended - be sure to mention it here.
+* Specific configuration details or parameters we pass to the library's API for some reason.
+* If there is a wrapper, explain where it is located in the code, how it is used (provide an example, and how it's implemented.

@@ -1,0 +1,6 @@
+Developers are often overwhelmed with different tools they need to know and use. Be clear about the motivation for introducing a new tool. Why is it important that you use this tool and not implement the functionality yourself?
+
+Each 3rd party tool comes with its caveats - dos and don'ts. When using a 3rd party in your codebase, best practices documentation state specifically how and why you use it.
+This information is rarely found in the library's external documentation. If it is - it's hard to find because it is surrounded by generic details that do not apply to our specific use cases. Furthermore, using all of the functionality within a 3rd party is very rare, so we focus on a subset of this library's functionality - the functionality that is used within the codebase.
+
+When using a wrapper to hide most of the internal details of how we use the 3rd party library, it's important to describe how to use it including how it operates and what underlying assumptions were made when implementing it.

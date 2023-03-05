@@ -1,0 +1,46 @@
+---
+id: Increasing bus factor
+slug: increasing-bus-factor
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
+
+# Increasing bus factor
+
+## What is the bus factor?
+
+The Bus factor is the number of people on a project that would have to be hit by a bus (or quit) before the project is in serious trouble.
+
+A [recent study by Metabase](https://www.metabase.com/blog/bus-factor) found that almost half of the top projects on GitHub have a bus factor of two or less.
+
+For your dev team, if a file, module or service relies on a single person, it means that if this person is not available for any reason, your progress is stuck.
+
+## Increasing bus factor to open a bottleneck in development
+
+### (1) Identify the greatest risks
+
+First, identify code parts (files, modules, or services) that are:
+
+1. Crucial for your organization.
+2. Known well by only one or two people.
+
+When the two criteria above intersect, you have a real risk that should be mitigated - including. a single script used to operate some DevOps operation in the background as well as the core algorithms you count on.
+
+Act on this knowledge silo by simply asking different team members about parts of the codebase that only one person knows. A good question is, “Suppose that X is not available for a month. What would be our biggest problem?”
+
+Another way is to use automated tools that compute the ownership/knowledge of a specific repository, file, or directory. A few open-source tools can help including https://github.com/SOM-Research/busfactor, https://github.com/aserg-ufmg/Truck-Factor, and https://github.com/HelgeCPH/truckfactor ). These tools help you find parts of the codebase that your team members don't necessarily remember, posing a high, knowledge management risk if you need to change the code or rely on specific developers being available.
+
+### (2) Act
+
+If the individuals who know the relevant code parts are available, we recommend the following methodology:
+
+1. Request that they write documents covering **all essential aspects** of the code parts marked as high risk. Notice that for high-risk parts of the code, it makes sense to dive into the small implementation details and ensure they are clear.
+1. Ask that they come up with a set of small maintenance tasks for this code. The tasks should be chosen so that if someone can complete them, then that person is considered to have good enough knowledge of this part of the code.
+1. Ask another member of your team to read the references created in step (1) and complete the tasks in (2). This way, you have practically increased your bus factor. If some of the code is not covered well enough for a person to contribute to it, then you will be able to address that in time and fill the gaps.
+
+If the individuals who know the relevant code parts well are not available, it may be harder to mitigate the risk, but not impossible. In this case, we recommend you follow our <Link to="/use-case-guides/legacy-code">guide to exploring and documenting legacy code</Link>.
+
+### (3) Your documents will be there for you when needed
+
+Thanks to Swimm, the documents you create will remain up to date as the code evolves. In addition, when the day comes when you need someone to make changes to the relevant code parts and the person who knows them best is no longer available, other team members will easily find these documents alongside the code thanks to <Link to="/ide-integrations/ide-plugins">Swimm's IDE integrations</Link>.
